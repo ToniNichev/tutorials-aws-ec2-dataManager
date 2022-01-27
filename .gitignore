@@ -1,0 +1,15 @@
+node_modules/
+*.log
+*.swp
+.DS_Store
+static/dist
+dist
+package-lock.json
+yarn.lock
+.build-info.json
+.idea/
+#VS Code
+.vscode/
+source-maps/
+server-build/
+dist/loadable-manifest.json
