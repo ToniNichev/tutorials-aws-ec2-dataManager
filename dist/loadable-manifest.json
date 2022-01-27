@@ -1,1932 +1,1256 @@
 {
-  "@babel/runtime/helpers/asyncToGenerator": [
+  "react": [
     {
-      "id": "./node_modules/@babel/runtime/helpers/asyncToGenerator.js",
-      "name": "./node_modules/@babel/runtime/helpers/asyncToGenerator.js",
-      "file": "0-bundle.js",
-      "publicPath": "http://localhost:8000/dist/0-bundle.js"
+      "id": 0,
+      "name": "./node_modules/react/index.js",
+      "file": "main.css",
+      "publicPath": "http://toni-develops.com:8081/dist/main.css"
     },
     {
-      "id": "./node_modules/@babel/runtime/helpers/asyncToGenerator.js",
-      "name": "./node_modules/@babel/runtime/helpers/asyncToGenerator.js",
-      "file": "0-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/0-bundle.js.map"
-    }
-  ],
-  "@babel/runtime/regenerator": [
-    {
-      "id": "./node_modules/@babel/runtime/regenerator/index.js",
-      "name": "./node_modules/@babel/runtime/regenerator/index.js",
-      "file": "0-bundle.js",
-      "publicPath": "http://localhost:8000/dist/0-bundle.js"
-    },
-    {
-      "id": "./node_modules/@babel/runtime/regenerator/index.js",
-      "name": "./node_modules/@babel/runtime/regenerator/index.js",
-      "file": "0-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/0-bundle.js.map"
-    }
-  ],
-  "regenerator-runtime": [
-    {
-      "id": "./node_modules/regenerator-runtime/runtime.js",
-      "name": "./node_modules/regenerator-runtime/runtime.js",
-      "file": "0-bundle.js",
-      "publicPath": "http://localhost:8000/dist/0-bundle.js"
-    },
-    {
-      "id": "./node_modules/regenerator-runtime/runtime.js",
-      "name": "./node_modules/regenerator-runtime/runtime.js",
-      "file": "0-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/0-bundle.js.map"
-    }
-  ],
-  "./arrayLikeToArray.js": [
-    {
-      "id": "./node_modules/@babel/runtime/helpers/arrayLikeToArray.js",
-      "name": "./node_modules/@babel/runtime/helpers/arrayLikeToArray.js",
-      "file": "1-bundle.js",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js"
-    },
-    {
-      "id": "./node_modules/@babel/runtime/helpers/arrayLikeToArray.js",
-      "name": "./node_modules/@babel/runtime/helpers/arrayLikeToArray.js",
-      "file": "1-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js.map"
-    },
-    {
-      "id": "./node_modules/@babel/runtime/helpers/arrayLikeToArray.js",
-      "name": "./node_modules/@babel/runtime/helpers/arrayLikeToArray.js",
-      "file": "2-bundle.js",
-      "publicPath": "http://localhost:8000/dist/2-bundle.js"
-    },
-    {
-      "id": "./node_modules/@babel/runtime/helpers/arrayLikeToArray.js",
-      "name": "./node_modules/@babel/runtime/helpers/arrayLikeToArray.js",
-      "file": "2-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/2-bundle.js.map"
-    }
-  ],
-  "./arrayWithHoles.js": [
-    {
-      "id": "./node_modules/@babel/runtime/helpers/arrayWithHoles.js",
-      "name": "./node_modules/@babel/runtime/helpers/arrayWithHoles.js",
-      "file": "1-bundle.js",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js"
-    },
-    {
-      "id": "./node_modules/@babel/runtime/helpers/arrayWithHoles.js",
-      "name": "./node_modules/@babel/runtime/helpers/arrayWithHoles.js",
-      "file": "1-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js.map"
-    },
-    {
-      "id": "./node_modules/@babel/runtime/helpers/arrayWithHoles.js",
-      "name": "./node_modules/@babel/runtime/helpers/arrayWithHoles.js",
-      "file": "2-bundle.js",
-      "publicPath": "http://localhost:8000/dist/2-bundle.js"
-    },
-    {
-      "id": "./node_modules/@babel/runtime/helpers/arrayWithHoles.js",
-      "name": "./node_modules/@babel/runtime/helpers/arrayWithHoles.js",
-      "file": "2-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/2-bundle.js.map"
-    }
-  ],
-  "./iterableToArrayLimit.js": [
-    {
-      "id": "./node_modules/@babel/runtime/helpers/iterableToArrayLimit.js",
-      "name": "./node_modules/@babel/runtime/helpers/iterableToArrayLimit.js",
-      "file": "1-bundle.js",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js"
-    },
-    {
-      "id": "./node_modules/@babel/runtime/helpers/iterableToArrayLimit.js",
-      "name": "./node_modules/@babel/runtime/helpers/iterableToArrayLimit.js",
-      "file": "1-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js.map"
-    },
-    {
-      "id": "./node_modules/@babel/runtime/helpers/iterableToArrayLimit.js",
-      "name": "./node_modules/@babel/runtime/helpers/iterableToArrayLimit.js",
-      "file": "2-bundle.js",
-      "publicPath": "http://localhost:8000/dist/2-bundle.js"
-    },
-    {
-      "id": "./node_modules/@babel/runtime/helpers/iterableToArrayLimit.js",
-      "name": "./node_modules/@babel/runtime/helpers/iterableToArrayLimit.js",
-      "file": "2-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/2-bundle.js.map"
-    }
-  ],
-  "./nonIterableRest.js": [
-    {
-      "id": "./node_modules/@babel/runtime/helpers/nonIterableRest.js",
-      "name": "./node_modules/@babel/runtime/helpers/nonIterableRest.js",
-      "file": "1-bundle.js",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js"
-    },
-    {
-      "id": "./node_modules/@babel/runtime/helpers/nonIterableRest.js",
-      "name": "./node_modules/@babel/runtime/helpers/nonIterableRest.js",
-      "file": "1-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js.map"
-    },
-    {
-      "id": "./node_modules/@babel/runtime/helpers/nonIterableRest.js",
-      "name": "./node_modules/@babel/runtime/helpers/nonIterableRest.js",
-      "file": "2-bundle.js",
-      "publicPath": "http://localhost:8000/dist/2-bundle.js"
-    },
-    {
-      "id": "./node_modules/@babel/runtime/helpers/nonIterableRest.js",
-      "name": "./node_modules/@babel/runtime/helpers/nonIterableRest.js",
-      "file": "2-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/2-bundle.js.map"
-    }
-  ],
-  "@babel/runtime/helpers/slicedToArray": [
-    {
-      "id": "./node_modules/@babel/runtime/helpers/slicedToArray.js",
-      "name": "./node_modules/@babel/runtime/helpers/slicedToArray.js",
-      "file": "1-bundle.js",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js"
-    },
-    {
-      "id": "./node_modules/@babel/runtime/helpers/slicedToArray.js",
-      "name": "./node_modules/@babel/runtime/helpers/slicedToArray.js",
-      "file": "1-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js.map"
-    },
-    {
-      "id": "./node_modules/@babel/runtime/helpers/slicedToArray.js",
-      "name": "./node_modules/@babel/runtime/helpers/slicedToArray.js",
-      "file": "2-bundle.js",
-      "publicPath": "http://localhost:8000/dist/2-bundle.js"
-    },
-    {
-      "id": "./node_modules/@babel/runtime/helpers/slicedToArray.js",
-      "name": "./node_modules/@babel/runtime/helpers/slicedToArray.js",
-      "file": "2-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/2-bundle.js.map"
-    }
-  ],
-  "./unsupportedIterableToArray.js": [
-    {
-      "id": "./node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js",
-      "name": "./node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js",
-      "file": "1-bundle.js",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js"
-    },
-    {
-      "id": "./node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js",
-      "name": "./node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js",
-      "file": "1-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js.map"
-    },
-    {
-      "id": "./node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js",
-      "name": "./node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js",
-      "file": "2-bundle.js",
-      "publicPath": "http://localhost:8000/dist/2-bundle.js"
-    },
-    {
-      "id": "./node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js",
-      "name": "./node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js",
-      "file": "2-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/2-bundle.js.map"
-    }
-  ],
-  "!!../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../node_modules/postcss-loader/src/index.js??ref--5-2!../../../node_modules/sass-loader/dist/cjs.js??ref--5-3!./styles.scss": [
-    {
-      "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/AddFlagPopup/styles.scss",
-      "name": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/AddFlagPopup/styles.scss",
-      "file": "1-bundle.js",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js"
-    },
-    {
-      "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/BulletPoint/styles.scss",
-      "name": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/BulletPoint/styles.scss",
-      "file": "1-bundle.js",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js"
-    },
-    {
-      "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/EditDelete/styles.scss",
-      "name": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/EditDelete/styles.scss",
-      "file": "1-bundle.js",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js"
-    },
-    {
-      "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/GeneralPopup/styles.scss",
-      "name": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/GeneralPopup/styles.scss",
-      "file": "1-bundle.js",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js"
-    },
-    {
-      "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/Home/styles.scss",
-      "name": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/Home/styles.scss",
-      "file": "1-bundle.js",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js"
-    },
-    {
-      "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/ToggleSwitch/styles.scss",
-      "name": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/ToggleSwitch/styles.scss",
-      "file": "1-bundle.js",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js"
-    },
-    {
-      "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/AddFlagPopup/styles.scss",
-      "name": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/AddFlagPopup/styles.scss",
-      "file": "1-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js.map"
-    },
-    {
-      "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/BulletPoint/styles.scss",
-      "name": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/BulletPoint/styles.scss",
-      "file": "1-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js.map"
-    },
-    {
-      "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/EditDelete/styles.scss",
-      "name": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/EditDelete/styles.scss",
-      "file": "1-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js.map"
-    },
-    {
-      "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/GeneralPopup/styles.scss",
-      "name": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/GeneralPopup/styles.scss",
-      "file": "1-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js.map"
-    },
-    {
-      "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/Home/styles.scss",
-      "name": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/Home/styles.scss",
-      "file": "1-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js.map"
-    },
-    {
-      "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/ToggleSwitch/styles.scss",
-      "name": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/ToggleSwitch/styles.scss",
-      "file": "1-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js.map"
-    },
-    {
-      "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/GeneralPopup/styles.scss",
-      "name": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/GeneralPopup/styles.scss",
-      "file": "2-bundle.js",
-      "publicPath": "http://localhost:8000/dist/2-bundle.js"
-    },
-    {
-      "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/Header/styles.scss",
-      "name": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/Header/styles.scss",
-      "file": "2-bundle.js",
-      "publicPath": "http://localhost:8000/dist/2-bundle.js"
-    },
-    {
-      "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/GeneralPopup/styles.scss",
-      "name": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/GeneralPopup/styles.scss",
-      "file": "2-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/2-bundle.js.map"
-    },
-    {
-      "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/Header/styles.scss",
-      "name": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/Header/styles.scss",
-      "file": "2-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/2-bundle.js.map"
-    },
-    {
-      "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/Setup/styles.scss",
-      "name": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/Setup/styles.scss",
-      "file": "3-bundle.js",
-      "publicPath": "http://localhost:8000/dist/3-bundle.js"
-    },
-    {
-      "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/Setup/styles.scss",
-      "name": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/Setup/styles.scss",
-      "file": "3-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/3-bundle.js.map"
-    },
-    {
-      "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/About/styles.scss",
-      "name": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/About/styles.scss",
-      "file": "4-bundle.js",
-      "publicPath": "http://localhost:8000/dist/4-bundle.js"
-    },
-    {
-      "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/About/styles.scss",
-      "name": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/About/styles.scss",
-      "file": "4-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/4-bundle.js.map"
-    },
-    {
-      "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/App/styles.scss",
-      "name": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/App/styles.scss",
+      "id": 0,
+      "name": "./node_modules/react/index.js",
       "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
-    },
-    {
-      "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/Loading/styles.scss",
-      "name": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/Loading/styles.scss",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
-    },
-    {
-      "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/containers/PageLayout/styles.scss",
-      "name": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/containers/PageLayout/styles.scss",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
-    },
-    {
-      "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/App/styles.scss",
-      "name": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/App/styles.scss",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    },
-    {
-      "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/Loading/styles.scss",
-      "name": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/Loading/styles.scss",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    },
-    {
-      "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/containers/PageLayout/styles.scss",
-      "name": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/containers/PageLayout/styles.scss",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "../AddFlagPopup": [
-    {
-      "id": "./src/components/AddFlagPopup/index.js",
-      "name": "./src/components/AddFlagPopup/index.js",
-      "file": "1-bundle.js",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js"
-    },
-    {
-      "id": "./src/components/AddFlagPopup/index.js",
-      "name": "./src/components/AddFlagPopup/index.js",
-      "file": "1-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js.map"
-    }
-  ],
-  "./styles.scss": [
-    {
-      "id": "./src/components/AddFlagPopup/styles.scss",
-      "name": "./src/components/AddFlagPopup/styles.scss",
-      "file": "1-bundle.js",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js"
-    },
-    {
-      "id": "./src/components/BulletPoint/styles.scss",
-      "name": "./src/components/BulletPoint/styles.scss",
-      "file": "1-bundle.js",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js"
-    },
-    {
-      "id": "./src/components/EditDelete/styles.scss",
-      "name": "./src/components/EditDelete/styles.scss",
-      "file": "1-bundle.js",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js"
-    },
-    {
-      "id": "./src/components/GeneralPopup/styles.scss",
-      "name": "./src/components/GeneralPopup/styles.scss",
-      "file": "1-bundle.js",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js"
-    },
-    {
-      "id": "./src/components/Home/styles.scss",
-      "name": "./src/components/Home/styles.scss",
-      "file": "1-bundle.js",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js"
-    },
-    {
-      "id": "./src/components/ToggleSwitch/styles.scss",
-      "name": "./src/components/ToggleSwitch/styles.scss",
-      "file": "1-bundle.js",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js"
-    },
-    {
-      "id": "./src/components/AddFlagPopup/styles.scss",
-      "name": "./src/components/AddFlagPopup/styles.scss",
-      "file": "1-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js.map"
-    },
-    {
-      "id": "./src/components/BulletPoint/styles.scss",
-      "name": "./src/components/BulletPoint/styles.scss",
-      "file": "1-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js.map"
-    },
-    {
-      "id": "./src/components/EditDelete/styles.scss",
-      "name": "./src/components/EditDelete/styles.scss",
-      "file": "1-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js.map"
-    },
-    {
-      "id": "./src/components/GeneralPopup/styles.scss",
-      "name": "./src/components/GeneralPopup/styles.scss",
-      "file": "1-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js.map"
-    },
-    {
-      "id": "./src/components/Home/styles.scss",
-      "name": "./src/components/Home/styles.scss",
-      "file": "1-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js.map"
-    },
-    {
-      "id": "./src/components/ToggleSwitch/styles.scss",
-      "name": "./src/components/ToggleSwitch/styles.scss",
-      "file": "1-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js.map"
-    },
-    {
-      "id": "./src/components/GeneralPopup/styles.scss",
-      "name": "./src/components/GeneralPopup/styles.scss",
-      "file": "2-bundle.js",
-      "publicPath": "http://localhost:8000/dist/2-bundle.js"
-    },
-    {
-      "id": "./src/components/Header/styles.scss",
-      "name": "./src/components/Header/styles.scss",
-      "file": "2-bundle.js",
-      "publicPath": "http://localhost:8000/dist/2-bundle.js"
-    },
-    {
-      "id": "./src/components/GeneralPopup/styles.scss",
-      "name": "./src/components/GeneralPopup/styles.scss",
-      "file": "2-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/2-bundle.js.map"
-    },
-    {
-      "id": "./src/components/Header/styles.scss",
-      "name": "./src/components/Header/styles.scss",
-      "file": "2-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/2-bundle.js.map"
-    },
-    {
-      "id": "./src/components/Setup/styles.scss",
-      "name": "./src/components/Setup/styles.scss",
-      "file": "3-bundle.js",
-      "publicPath": "http://localhost:8000/dist/3-bundle.js"
-    },
-    {
-      "id": "./src/components/Setup/styles.scss",
-      "name": "./src/components/Setup/styles.scss",
-      "file": "3-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/3-bundle.js.map"
-    },
-    {
-      "id": "./src/components/About/styles.scss",
-      "name": "./src/components/About/styles.scss",
-      "file": "4-bundle.js",
-      "publicPath": "http://localhost:8000/dist/4-bundle.js"
-    },
-    {
-      "id": "./src/components/About/styles.scss",
-      "name": "./src/components/About/styles.scss",
-      "file": "4-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/4-bundle.js.map"
-    },
-    {
-      "id": "./src/components/App/styles.scss",
-      "name": "./src/components/App/styles.scss",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
-    },
-    {
-      "id": "./src/components/Loading/styles.scss",
-      "name": "./src/components/Loading/styles.scss",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
-    },
-    {
-      "id": "./src/containers/PageLayout/styles.scss",
-      "name": "./src/containers/PageLayout/styles.scss",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
-    },
-    {
-      "id": "./src/components/App/styles.scss",
-      "name": "./src/components/App/styles.scss",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    },
-    {
-      "id": "./src/components/Loading/styles.scss",
-      "name": "./src/components/Loading/styles.scss",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    },
-    {
-      "id": "./src/containers/PageLayout/styles.scss",
-      "name": "./src/containers/PageLayout/styles.scss",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "../BulletPoint": [
-    {
-      "id": "./src/components/BulletPoint/index.js",
-      "name": "./src/components/BulletPoint/index.js",
-      "file": "1-bundle.js",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js"
-    },
-    {
-      "id": "./src/components/BulletPoint/index.js",
-      "name": "./src/components/BulletPoint/index.js",
-      "file": "1-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js.map"
-    }
-  ],
-  "../EditDelete": [
-    {
-      "id": "./src/components/EditDelete/index.js",
-      "name": "./src/components/EditDelete/index.js",
-      "file": "1-bundle.js",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js"
-    },
-    {
-      "id": "./src/components/EditDelete/index.js",
-      "name": "./src/components/EditDelete/index.js",
-      "file": "1-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js.map"
-    }
-  ],
-  "../GeneralPopup": [
-    {
-      "id": "./src/components/GeneralPopup/index.js",
-      "name": "./src/components/GeneralPopup/index.js",
-      "file": "1-bundle.js",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js"
-    },
-    {
-      "id": "./src/components/GeneralPopup/index.js",
-      "name": "./src/components/GeneralPopup/index.js",
-      "file": "1-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js.map"
-    },
-    {
-      "id": "./src/components/GeneralPopup/index.js",
-      "name": "./src/components/GeneralPopup/index.js",
-      "file": "2-bundle.js",
-      "publicPath": "http://localhost:8000/dist/2-bundle.js"
-    },
-    {
-      "id": "./src/components/GeneralPopup/index.js",
-      "name": "./src/components/GeneralPopup/index.js",
-      "file": "2-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/2-bundle.js.map"
-    }
-  ],
-  "../../../components/Home": [
-    {
-      "id": "./src/components/Home/index.js",
-      "name": "./src/components/Home/index.js",
-      "file": "1-bundle.js",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js"
-    },
-    {
-      "id": "./src/components/Home/index.js",
-      "name": "./src/components/Home/index.js",
-      "file": "1-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js.map"
-    }
-  ],
-  "../ToggleSwitch": [
-    {
-      "id": "./src/components/ToggleSwitch/index.js",
-      "name": "./src/components/ToggleSwitch/index.js",
-      "file": "1-bundle.js",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js"
-    },
-    {
-      "id": "./src/components/ToggleSwitch/index.js",
-      "name": "./src/components/ToggleSwitch/index.js",
-      "file": "1-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js.map"
-    }
-  ],
-  "../../containers/EventsManager": [
-    {
-      "id": "./src/containers/EventsManager/index.js",
-      "name": "./src/containers/EventsManager/index.js",
-      "file": "1-bundle.js",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js"
-    },
-    {
-      "id": "./src/containers/EventsManager/index.js",
-      "name": "./src/containers/EventsManager/index.js",
-      "file": "1-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js.map"
-    },
-    {
-      "id": "./src/containers/EventsManager/index.js",
-      "name": "./src/containers/EventsManager/index.js",
-      "file": "2-bundle.js",
-      "publicPath": "http://localhost:8000/dist/2-bundle.js"
-    },
-    {
-      "id": "./src/containers/EventsManager/index.js",
-      "name": "./src/containers/EventsManager/index.js",
-      "file": "2-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/2-bundle.js.map"
-    }
-  ],
-  "../../utils/Poster": [
-    {
-      "id": "./src/utils/Poster.js",
-      "name": "./src/utils/Poster.js",
-      "file": "1-bundle.js",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js"
-    },
-    {
-      "id": "./src/utils/Poster.js",
-      "name": "./src/utils/Poster.js",
-      "file": "1-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js.map"
-    },
-    {
-      "id": "./src/utils/Poster.js",
-      "name": "./src/utils/Poster.js",
-      "file": "3-bundle.js",
-      "publicPath": "http://localhost:8000/dist/3-bundle.js"
-    },
-    {
-      "id": "./src/utils/Poster.js",
-      "name": "./src/utils/Poster.js",
-      "file": "3-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/3-bundle.js.map"
-    }
-  ],
-  "../../utils/getParams": [
-    {
-      "id": "./src/utils/getParams.js",
-      "name": "./src/utils/getParams.js",
-      "file": "1-bundle.js",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js"
-    },
-    {
-      "id": "./src/utils/getParams.js",
-      "name": "./src/utils/getParams.js",
-      "file": "1-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/1-bundle.js.map"
-    },
-    {
-      "id": "./src/utils/getParams.js",
-      "name": "./src/utils/getParams.js",
-      "file": "3-bundle.js",
-      "publicPath": "http://localhost:8000/dist/3-bundle.js"
-    },
-    {
-      "id": "./src/utils/getParams.js",
-      "name": "./src/utils/getParams.js",
-      "file": "3-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/3-bundle.js.map"
-    }
-  ],
-  "../../../components/Header": [
-    {
-      "id": "./src/components/Header/index.js",
-      "name": "./src/components/Header/index.js",
-      "file": "2-bundle.js",
-      "publicPath": "http://localhost:8000/dist/2-bundle.js"
-    },
-    {
-      "id": "./src/components/Header/index.js",
-      "name": "./src/components/Header/index.js",
-      "file": "2-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/2-bundle.js.map"
-    }
-  ],
-  "./home.png": [
-    {
-      "id": "./src/components/Setup/home.png",
-      "name": "./src/components/Setup/home.png",
-      "file": "3-bundle.js",
-      "publicPath": "http://localhost:8000/dist/3-bundle.js"
-    },
-    {
-      "id": "./src/components/Setup/home.png",
-      "name": "./src/components/Setup/home.png",
-      "file": "3-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/3-bundle.js.map"
-    }
-  ],
-  "../../../components/Setup": [
-    {
-      "id": "./src/components/Setup/index.js",
-      "name": "./src/components/Setup/index.js",
-      "file": "3-bundle.js",
-      "publicPath": "http://localhost:8000/dist/3-bundle.js"
-    },
-    {
-      "id": "./src/components/Setup/index.js",
-      "name": "./src/components/Setup/index.js",
-      "file": "3-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/3-bundle.js.map"
-    }
-  ],
-  "../../../components/About": [
-    {
-      "id": "./src/components/About/index.js",
-      "name": "./src/components/About/index.js",
-      "file": "4-bundle.js",
-      "publicPath": "http://localhost:8000/dist/4-bundle.js"
-    },
-    {
-      "id": "./src/components/About/index.js",
-      "name": "./src/components/About/index.js",
-      "file": "4-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/4-bundle.js.map"
+      "publicPath": "http://toni-develops.com:8081/dist/main-bundle.js"
     }
   ],
   "undefined": [
     {
-      "id": 1,
+      "id": "",
+      "name": null,
+      "file": "main.css",
+      "publicPath": "http://toni-develops.com:8081/dist/main.css"
+    },
+    {
+      "id": "",
+      "name": null,
+      "file": "main.css",
+      "publicPath": "http://toni-develops.com:8081/dist/main.css"
+    },
+    {
+      "id": "",
+      "name": null,
+      "file": "main.css",
+      "publicPath": "http://toni-develops.com:8081/dist/main.css"
+    },
+    {
+      "id": 24,
+      "name": null,
+      "file": "main.css",
+      "publicPath": "http://toni-develops.com:8081/dist/main.css"
+    },
+    {
+      "id": "",
       "name": null,
       "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "publicPath": "http://toni-develops.com:8081/dist/main-bundle.js"
     },
     {
-      "id": "./node_modules/webpack/hot sync ^\\.\\/log$",
-      "name": "./node_modules/webpack/hot sync ^\\.\\/log$",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
-    },
-    {
-      "id": 1,
+      "id": "",
       "name": null,
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    },
-    {
-      "id": "./node_modules/webpack/hot sync ^\\.\\/log$",
-      "name": "./node_modules/webpack/hot sync ^\\.\\/log$",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "./assertThisInitialized.js": [
-    {
-      "id": "./node_modules/@babel/runtime/helpers/assertThisInitialized.js",
-      "name": "./node_modules/@babel/runtime/helpers/assertThisInitialized.js",
       "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "publicPath": "http://toni-develops.com:8081/dist/main-bundle.js"
     },
     {
-      "id": "./node_modules/@babel/runtime/helpers/assertThisInitialized.js",
-      "name": "./node_modules/@babel/runtime/helpers/assertThisInitialized.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "@babel/runtime/helpers/classCallCheck": [
-    {
-      "id": "./node_modules/@babel/runtime/helpers/classCallCheck.js",
-      "name": "./node_modules/@babel/runtime/helpers/classCallCheck.js",
+      "id": "",
+      "name": null,
       "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "publicPath": "http://toni-develops.com:8081/dist/main-bundle.js"
     },
     {
-      "id": "./node_modules/@babel/runtime/helpers/classCallCheck.js",
-      "name": "./node_modules/@babel/runtime/helpers/classCallCheck.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "@babel/runtime/helpers/createClass": [
-    {
-      "id": "./node_modules/@babel/runtime/helpers/createClass.js",
-      "name": "./node_modules/@babel/runtime/helpers/createClass.js",
+      "id": 24,
+      "name": null,
       "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "publicPath": "http://toni-develops.com:8081/dist/main-bundle.js"
     },
     {
-      "id": "./node_modules/@babel/runtime/helpers/createClass.js",
-      "name": "./node_modules/@babel/runtime/helpers/createClass.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "@babel/runtime/helpers/esm/extends": [
-    {
-      "id": "./node_modules/@babel/runtime/helpers/esm/extends.js",
-      "name": "./node_modules/@babel/runtime/helpers/esm/extends.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "id": "",
+      "name": null,
+      "file": "1.css",
+      "publicPath": "http://toni-develops.com:8081/dist/1.css"
     },
     {
-      "id": "./node_modules/@babel/runtime/helpers/esm/extends.js",
-      "name": "./node_modules/@babel/runtime/helpers/esm/extends.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "@babel/runtime/helpers/esm/inheritsLoose": [
-    {
-      "id": "./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js",
-      "name": "./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "id": "",
+      "name": null,
+      "file": "1.css",
+      "publicPath": "http://toni-develops.com:8081/dist/1.css"
     },
     {
-      "id": "./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js",
-      "name": "./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "@babel/runtime/helpers/esm/objectWithoutPropertiesLoose": [
-    {
-      "id": "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js",
-      "name": "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "id": "",
+      "name": null,
+      "file": "1.css",
+      "publicPath": "http://toni-develops.com:8081/dist/1.css"
     },
     {
-      "id": "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js",
-      "name": "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "./setPrototypeOf.js": [
-    {
-      "id": "./node_modules/@babel/runtime/helpers/esm/setPrototypeOf.js",
-      "name": "./node_modules/@babel/runtime/helpers/esm/setPrototypeOf.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "id": "",
+      "name": null,
+      "file": "1.css",
+      "publicPath": "http://toni-develops.com:8081/dist/1.css"
     },
     {
-      "id": "./node_modules/@babel/runtime/helpers/setPrototypeOf.js",
-      "name": "./node_modules/@babel/runtime/helpers/setPrototypeOf.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "id": "",
+      "name": null,
+      "file": "1.css",
+      "publicPath": "http://toni-develops.com:8081/dist/1.css"
     },
     {
-      "id": "./node_modules/@babel/runtime/helpers/esm/setPrototypeOf.js",
-      "name": "./node_modules/@babel/runtime/helpers/esm/setPrototypeOf.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
+      "id": "",
+      "name": null,
+      "file": "1.css",
+      "publicPath": "http://toni-develops.com:8081/dist/1.css"
     },
     {
-      "id": "./node_modules/@babel/runtime/helpers/setPrototypeOf.js",
-      "name": "./node_modules/@babel/runtime/helpers/setPrototypeOf.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "@babel/runtime/helpers/getPrototypeOf": [
-    {
-      "id": "./node_modules/@babel/runtime/helpers/getPrototypeOf.js",
-      "name": "./node_modules/@babel/runtime/helpers/getPrototypeOf.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "id": "",
+      "name": null,
+      "file": "1-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/1-bundle.js"
     },
     {
-      "id": "./node_modules/@babel/runtime/helpers/getPrototypeOf.js",
-      "name": "./node_modules/@babel/runtime/helpers/getPrototypeOf.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "@babel/runtime/helpers/inherits": [
-    {
-      "id": "./node_modules/@babel/runtime/helpers/inherits.js",
-      "name": "./node_modules/@babel/runtime/helpers/inherits.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "id": "",
+      "name": null,
+      "file": "1-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/1-bundle.js"
     },
     {
-      "id": "./node_modules/@babel/runtime/helpers/inherits.js",
-      "name": "./node_modules/@babel/runtime/helpers/inherits.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "@babel/runtime/helpers/possibleConstructorReturn": [
-    {
-      "id": "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
-      "name": "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "id": "",
+      "name": null,
+      "file": "1-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/1-bundle.js"
     },
     {
-      "id": "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
-      "name": "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "./typeof.js": [
-    {
-      "id": "./node_modules/@babel/runtime/helpers/typeof.js",
-      "name": "./node_modules/@babel/runtime/helpers/typeof.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "id": "",
+      "name": null,
+      "file": "1-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/1-bundle.js"
     },
     {
-      "id": "./node_modules/@babel/runtime/helpers/typeof.js",
-      "name": "./node_modules/@babel/runtime/helpers/typeof.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "ansi-html-community": [
-    {
-      "id": "./node_modules/ansi-html-community/index.js",
-      "name": "./node_modules/ansi-html-community/index.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "id": "",
+      "name": null,
+      "file": "1-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/1-bundle.js"
     },
     {
-      "id": "./node_modules/ansi-html-community/index.js",
-      "name": "./node_modules/ansi-html-community/index.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "ansi-regex": [
-    {
-      "id": "./node_modules/ansi-regex/index.js",
-      "name": "./node_modules/ansi-regex/index.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "id": "",
+      "name": null,
+      "file": "1-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/1-bundle.js"
     },
     {
-      "id": "./node_modules/ansi-regex/index.js",
-      "name": "./node_modules/ansi-regex/index.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "../../../node_modules/css-loader/dist/runtime/api.js": [
-    {
-      "id": "./node_modules/css-loader/dist/runtime/api.js",
-      "name": "./node_modules/css-loader/dist/runtime/api.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "id": "",
+      "name": null,
+      "file": "2.css",
+      "publicPath": "http://toni-develops.com:8081/dist/2.css"
     },
     {
-      "id": "./node_modules/css-loader/dist/runtime/api.js",
-      "name": "./node_modules/css-loader/dist/runtime/api.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "../../../node_modules/css-loader/dist/runtime/getUrl.js": [
-    {
-      "id": "./node_modules/css-loader/dist/runtime/getUrl.js",
-      "name": "./node_modules/css-loader/dist/runtime/getUrl.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "id": "",
+      "name": null,
+      "file": "2.css",
+      "publicPath": "http://toni-develops.com:8081/dist/2.css"
     },
     {
-      "id": "./node_modules/css-loader/dist/runtime/getUrl.js",
-      "name": "./node_modules/css-loader/dist/runtime/getUrl.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "events": [
-    {
-      "id": "./node_modules/events/events.js",
-      "name": "./node_modules/events/events.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "id": "",
+      "name": null,
+      "file": "2-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/2-bundle.js"
     },
     {
-      "id": "./node_modules/events/events.js",
-      "name": "./node_modules/events/events.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "history": [
-    {
-      "id": "./node_modules/history/esm/history.js",
-      "name": "./node_modules/history/esm/history.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "id": "",
+      "name": null,
+      "file": "2-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/2-bundle.js"
     },
     {
-      "id": "./node_modules/history/esm/history.js",
-      "name": "./node_modules/history/esm/history.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "hoist-non-react-statics": [
-    {
-      "id": "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
-      "name": "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "id": "",
+      "name": null,
+      "file": "3.css",
+      "publicPath": "http://toni-develops.com:8081/dist/3.css"
     },
     {
-      "id": "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
-      "name": "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "./html4-entities": [
-    {
-      "id": "./node_modules/html-entities/lib/html4-entities.js",
-      "name": "./node_modules/html-entities/lib/html4-entities.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "id": "",
+      "name": null,
+      "file": "3-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/3-bundle.js"
     },
     {
-      "id": "./node_modules/html-entities/lib/html4-entities.js",
-      "name": "./node_modules/html-entities/lib/html4-entities.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "./html5-entities": [
-    {
-      "id": "./node_modules/html-entities/lib/html5-entities.js",
-      "name": "./node_modules/html-entities/lib/html5-entities.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "id": "",
+      "name": null,
+      "file": "4.css",
+      "publicPath": "http://toni-develops.com:8081/dist/4.css"
     },
     {
-      "id": "./node_modules/html-entities/lib/html5-entities.js",
-      "name": "./node_modules/html-entities/lib/html5-entities.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "html-entities": [
-    {
-      "id": "./node_modules/html-entities/lib/index.js",
-      "name": "./node_modules/html-entities/lib/index.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
-    },
-    {
-      "id": "./node_modules/html-entities/lib/index.js",
-      "name": "./node_modules/html-entities/lib/index.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "./surrogate-pairs": [
-    {
-      "id": "./node_modules/html-entities/lib/surrogate-pairs.js",
-      "name": "./node_modules/html-entities/lib/surrogate-pairs.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
-    },
-    {
-      "id": "./node_modules/html-entities/lib/surrogate-pairs.js",
-      "name": "./node_modules/html-entities/lib/surrogate-pairs.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "./xml-entities": [
-    {
-      "id": "./node_modules/html-entities/lib/xml-entities.js",
-      "name": "./node_modules/html-entities/lib/xml-entities.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
-    },
-    {
-      "id": "./node_modules/html-entities/lib/xml-entities.js",
-      "name": "./node_modules/html-entities/lib/xml-entities.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "loglevel": [
-    {
-      "id": "./node_modules/loglevel/lib/loglevel.js",
-      "name": "./node_modules/loglevel/lib/loglevel.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
-    },
-    {
-      "id": "./node_modules/loglevel/lib/loglevel.js",
-      "name": "./node_modules/loglevel/lib/loglevel.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "mini-create-react-context": [
-    {
-      "id": "./node_modules/mini-create-react-context/dist/esm/index.js",
-      "name": "./node_modules/mini-create-react-context/dist/esm/index.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
-    },
-    {
-      "id": "./node_modules/mini-create-react-context/dist/esm/index.js",
-      "name": "./node_modules/mini-create-react-context/dist/esm/index.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "punycode": [
-    {
-      "id": "./node_modules/node-libs-browser/node_modules/punycode/punycode.js",
-      "name": "./node_modules/node-libs-browser/node_modules/punycode/punycode.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
-    },
-    {
-      "id": "./node_modules/node-libs-browser/node_modules/punycode/punycode.js",
-      "name": "./node_modules/node-libs-browser/node_modules/punycode/punycode.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "object-assign": [
-    {
-      "id": "./node_modules/object-assign/index.js",
-      "name": "./node_modules/object-assign/index.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
-    },
-    {
-      "id": "./node_modules/object-assign/index.js",
-      "name": "./node_modules/object-assign/index.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "prop-types/checkPropTypes": [
-    {
-      "id": "./node_modules/prop-types/checkPropTypes.js",
-      "name": "./node_modules/prop-types/checkPropTypes.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
-    },
-    {
-      "id": "./node_modules/prop-types/checkPropTypes.js",
-      "name": "./node_modules/prop-types/checkPropTypes.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "./factoryWithTypeCheckers": [
-    {
-      "id": "./node_modules/prop-types/factoryWithTypeCheckers.js",
-      "name": "./node_modules/prop-types/factoryWithTypeCheckers.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
-    },
-    {
-      "id": "./node_modules/prop-types/factoryWithTypeCheckers.js",
-      "name": "./node_modules/prop-types/factoryWithTypeCheckers.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "prop-types": [
-    {
-      "id": "./node_modules/prop-types/index.js",
-      "name": "./node_modules/prop-types/index.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
-    },
-    {
-      "id": "./node_modules/prop-types/index.js",
-      "name": "./node_modules/prop-types/index.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "./lib/ReactPropTypesSecret": [
-    {
-      "id": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
-      "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
-    },
-    {
-      "id": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
-      "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "./lib/has": [
-    {
-      "id": "./node_modules/prop-types/lib/has.js",
-      "name": "./node_modules/prop-types/lib/has.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
-    },
-    {
-      "id": "./node_modules/prop-types/lib/has.js",
-      "name": "./node_modules/prop-types/lib/has.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "./decode": [
-    {
-      "id": "./node_modules/querystring-es3/decode.js",
-      "name": "./node_modules/querystring-es3/decode.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
-    },
-    {
-      "id": "./node_modules/querystring-es3/decode.js",
-      "name": "./node_modules/querystring-es3/decode.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "./encode": [
-    {
-      "id": "./node_modules/querystring-es3/encode.js",
-      "name": "./node_modules/querystring-es3/encode.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
-    },
-    {
-      "id": "./node_modules/querystring-es3/encode.js",
-      "name": "./node_modules/querystring-es3/encode.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "querystring": [
-    {
-      "id": "./node_modules/querystring-es3/index.js",
-      "name": "./node_modules/querystring-es3/index.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
-    },
-    {
-      "id": "./node_modules/querystring-es3/index.js",
-      "name": "./node_modules/querystring-es3/index.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "./cjs/react-dom.development.js": [
-    {
-      "id": "./node_modules/react-dom/cjs/react-dom.development.js",
-      "name": "./node_modules/react-dom/cjs/react-dom.development.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
-    },
-    {
-      "id": "./node_modules/react-dom/cjs/react-dom.development.js",
-      "name": "./node_modules/react-dom/cjs/react-dom.development.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "react-dom": [
-    {
-      "id": "./node_modules/react-dom/index.js",
-      "name": "./node_modules/react-dom/index.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
-    },
-    {
-      "id": "./node_modules/react-dom/index.js",
-      "name": "./node_modules/react-dom/index.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "./cjs/react-is.development.js": [
-    {
-      "id": "./node_modules/react-is/cjs/react-is.development.js",
-      "name": "./node_modules/react-is/cjs/react-is.development.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
-    },
-    {
-      "id": "./node_modules/react-is/cjs/react-is.development.js",
-      "name": "./node_modules/react-is/cjs/react-is.development.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "react-is": [
-    {
-      "id": "./node_modules/react-is/index.js",
-      "name": "./node_modules/react-is/index.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
-    },
-    {
-      "id": "./node_modules/react-is/index.js",
-      "name": "./node_modules/react-is/index.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "react-loadable": [
-    {
-      "id": "./node_modules/react-loadable/lib/index.js",
-      "name": "./node_modules/react-loadable/lib/index.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
-    },
-    {
-      "id": "./node_modules/react-loadable/lib/index.js",
-      "name": "./node_modules/react-loadable/lib/index.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "react-router-dom": [
-    {
-      "id": "./node_modules/react-router-dom/esm/react-router-dom.js",
-      "name": "./node_modules/react-router-dom/esm/react-router-dom.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
-    },
-    {
-      "id": "./node_modules/react-router-dom/esm/react-router-dom.js",
-      "name": "./node_modules/react-router-dom/esm/react-router-dom.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
+      "id": "",
+      "name": null,
+      "file": "4-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/4-bundle.js"
     }
   ],
   "react-router": [
     {
-      "id": "./node_modules/react-router/esm/react-router.js",
+      "id": 1,
+      "name": "./node_modules/react-router/esm/react-router.js",
+      "file": "main.css",
+      "publicPath": "http://toni-develops.com:8081/dist/main.css"
+    },
+    {
+      "id": 1,
       "name": "./node_modules/react-router/esm/react-router.js",
       "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
-    },
-    {
-      "id": "./node_modules/react-router/esm/react-router.js",
-      "name": "./node_modules/react-router/esm/react-router.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
+      "publicPath": "http://toni-develops.com:8081/dist/main-bundle.js"
     }
   ],
-  "isarray": [
+  "@babel/runtime/helpers/esm/extends": [
     {
-      "id": "./node_modules/react-router/node_modules/isarray/index.js",
-      "name": "./node_modules/react-router/node_modules/isarray/index.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "id": 2,
+      "name": "./node_modules/@babel/runtime/helpers/esm/extends.js",
+      "file": "main.css",
+      "publicPath": "http://toni-develops.com:8081/dist/main.css"
     },
     {
-      "id": "./node_modules/react-router/node_modules/isarray/index.js",
-      "name": "./node_modules/react-router/node_modules/isarray/index.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
+      "id": 2,
+      "name": "./node_modules/@babel/runtime/helpers/esm/extends.js",
+      "file": "main-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/main-bundle.js"
     }
   ],
-  "path-to-regexp": [
+  "history": [
     {
-      "id": "./node_modules/react-router/node_modules/path-to-regexp/index.js",
-      "name": "./node_modules/react-router/node_modules/path-to-regexp/index.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "id": 3,
+      "name": "./node_modules/history/esm/history.js",
+      "file": "main.css",
+      "publicPath": "http://toni-develops.com:8081/dist/main.css"
     },
     {
-      "id": "./node_modules/react-router/node_modules/path-to-regexp/index.js",
-      "name": "./node_modules/react-router/node_modules/path-to-regexp/index.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "./cjs/react.development.js": [
-    {
-      "id": "./node_modules/react/cjs/react.development.js",
-      "name": "./node_modules/react/cjs/react.development.js",
+      "id": 3,
+      "name": "./node_modules/history/esm/history.js",
       "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
-    },
-    {
-      "id": "./node_modules/react/cjs/react.development.js",
-      "name": "./node_modules/react/cjs/react.development.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "react": [
-    {
-      "id": "./node_modules/react/index.js",
-      "name": "./node_modules/react/index.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
-    },
-    {
-      "id": "./node_modules/react/index.js",
-      "name": "./node_modules/react/index.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "resolve-pathname": [
-    {
-      "id": "./node_modules/resolve-pathname/esm/resolve-pathname.js",
-      "name": "./node_modules/resolve-pathname/esm/resolve-pathname.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
-    },
-    {
-      "id": "./node_modules/resolve-pathname/esm/resolve-pathname.js",
-      "name": "./node_modules/resolve-pathname/esm/resolve-pathname.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "./cjs/scheduler-tracing.development.js": [
-    {
-      "id": "./node_modules/scheduler/cjs/scheduler-tracing.development.js",
-      "name": "./node_modules/scheduler/cjs/scheduler-tracing.development.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
-    },
-    {
-      "id": "./node_modules/scheduler/cjs/scheduler-tracing.development.js",
-      "name": "./node_modules/scheduler/cjs/scheduler-tracing.development.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "./cjs/scheduler.development.js": [
-    {
-      "id": "./node_modules/scheduler/cjs/scheduler.development.js",
-      "name": "./node_modules/scheduler/cjs/scheduler.development.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
-    },
-    {
-      "id": "./node_modules/scheduler/cjs/scheduler.development.js",
-      "name": "./node_modules/scheduler/cjs/scheduler.development.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "scheduler": [
-    {
-      "id": "./node_modules/scheduler/index.js",
-      "name": "./node_modules/scheduler/index.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
-    },
-    {
-      "id": "./node_modules/scheduler/index.js",
-      "name": "./node_modules/scheduler/index.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "scheduler/tracing": [
-    {
-      "id": "./node_modules/scheduler/tracing.js",
-      "name": "./node_modules/scheduler/tracing.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
-    },
-    {
-      "id": "./node_modules/scheduler/tracing.js",
-      "name": "./node_modules/scheduler/tracing.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "sockjs-client/dist/sockjs": [
-    {
-      "id": "./node_modules/sockjs-client/dist/sockjs.js",
-      "name": "./node_modules/sockjs-client/dist/sockjs.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
-    },
-    {
-      "id": "./node_modules/sockjs-client/dist/sockjs.js",
-      "name": "./node_modules/sockjs-client/dist/sockjs.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
-    }
-  ],
-  "!../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js": [
-    {
-      "id": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
-      "name": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
-    },
-    {
-      "id": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
-      "name": "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
+      "publicPath": "http://toni-develops.com:8081/dist/main-bundle.js"
     }
   ],
   "tiny-invariant": [
     {
-      "id": "./node_modules/tiny-invariant/dist/tiny-invariant.esm.js",
+      "id": 4,
+      "name": "./node_modules/tiny-invariant/dist/tiny-invariant.esm.js",
+      "file": "main.css",
+      "publicPath": "http://toni-develops.com:8081/dist/main.css"
+    },
+    {
+      "id": 4,
       "name": "./node_modules/tiny-invariant/dist/tiny-invariant.esm.js",
       "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
-    },
-    {
-      "id": "./node_modules/tiny-invariant/dist/tiny-invariant.esm.js",
-      "name": "./node_modules/tiny-invariant/dist/tiny-invariant.esm.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
+      "publicPath": "http://toni-develops.com:8081/dist/main-bundle.js"
     }
   ],
-  "tiny-warning": [
+  "@babel/runtime/helpers/esm/inheritsLoose": [
     {
-      "id": "./node_modules/tiny-warning/dist/tiny-warning.esm.js",
-      "name": "./node_modules/tiny-warning/dist/tiny-warning.esm.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "id": 5,
+      "name": "./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js",
+      "file": "main.css",
+      "publicPath": "http://toni-develops.com:8081/dist/main.css"
     },
     {
-      "id": "./node_modules/tiny-warning/dist/tiny-warning.esm.js",
-      "name": "./node_modules/tiny-warning/dist/tiny-warning.esm.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
+      "id": 5,
+      "name": "./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js",
+      "file": "main-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/main-bundle.js"
     }
   ],
-  "url": [
+  "@babel/runtime/helpers/esm/objectWithoutPropertiesLoose": [
     {
-      "id": "./node_modules/url/url.js",
-      "name": "./node_modules/url/url.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "id": 6,
+      "name": "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js",
+      "file": "main.css",
+      "publicPath": "http://toni-develops.com:8081/dist/main.css"
     },
     {
-      "id": "./node_modules/url/url.js",
-      "name": "./node_modules/url/url.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
+      "id": 6,
+      "name": "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js",
+      "file": "main-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/main-bundle.js"
     }
   ],
-  "./util": [
+  "prop-types": [
     {
-      "id": "./node_modules/url/util.js",
-      "name": "./node_modules/url/util.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "id": 7,
+      "name": "./node_modules/prop-types/index.js",
+      "file": "main.css",
+      "publicPath": "http://toni-develops.com:8081/dist/main.css"
     },
     {
-      "id": "./node_modules/url/util.js",
-      "name": "./node_modules/url/util.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
+      "id": 7,
+      "name": "./node_modules/prop-types/index.js",
+      "file": "main-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/main-bundle.js"
     }
   ],
-  "value-equal": [
+  "react-loadable": [
     {
-      "id": "./node_modules/value-equal/esm/value-equal.js",
-      "name": "./node_modules/value-equal/esm/value-equal.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "id": 8,
+      "name": "./node_modules/react-loadable/lib/index.js",
+      "file": "main.css",
+      "publicPath": "http://toni-develops.com:8081/dist/main.css"
     },
     {
-      "id": "./node_modules/value-equal/esm/value-equal.js",
-      "name": "./node_modules/value-equal/esm/value-equal.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
+      "id": 8,
+      "name": "./node_modules/react-loadable/lib/index.js",
+      "file": "main-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/main-bundle.js"
     }
   ],
-  "./BaseClient": [
+  "@babel/runtime/helpers/getPrototypeOf": [
     {
-      "id": "./node_modules/webpack-dev-server/client/clients/BaseClient.js",
-      "name": "./node_modules/webpack-dev-server/client/clients/BaseClient.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "id": 10,
+      "name": "./node_modules/@babel/runtime/helpers/getPrototypeOf.js",
+      "file": "main.css",
+      "publicPath": "http://toni-develops.com:8081/dist/main.css"
     },
     {
-      "id": "./node_modules/webpack-dev-server/client/clients/BaseClient.js",
-      "name": "./node_modules/webpack-dev-server/client/clients/BaseClient.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
+      "id": 10,
+      "name": "./node_modules/@babel/runtime/helpers/getPrototypeOf.js",
+      "file": "main-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/main-bundle.js"
     }
   ],
-  "/Users/toninichev/Cloud/workspace/AWS/dataManager/webApp/node_modules/webpack-dev-server/client/clients/SockJSClient.js": [
+  "path-to-regexp": [
     {
-      "id": "./node_modules/webpack-dev-server/client/clients/SockJSClient.js",
-      "name": "./node_modules/webpack-dev-server/client/clients/SockJSClient.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "id": 11,
+      "name": "./node_modules/react-router/node_modules/path-to-regexp/index.js",
+      "file": "main.css",
+      "publicPath": "http://toni-develops.com:8081/dist/main.css"
     },
     {
-      "id": "./node_modules/webpack-dev-server/client/clients/SockJSClient.js",
-      "name": "./node_modules/webpack-dev-server/client/clients/SockJSClient.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
+      "id": 11,
+      "name": "./node_modules/react-router/node_modules/path-to-regexp/index.js",
+      "file": "main-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/main-bundle.js"
     }
   ],
-  "/Users/toninichev/Cloud/workspace/AWS/dataManager/webApp/node_modules/webpack-dev-server/client/index.js?http://localhost:8000": [
+  "object-assign": [
     {
-      "id": "./node_modules/webpack-dev-server/client/index.js?http://localhost:8000",
-      "name": "./node_modules/webpack-dev-server/client/index.js?http://localhost:8000",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "id": 12,
+      "name": "./node_modules/object-assign/index.js",
+      "file": "main.css",
+      "publicPath": "http://toni-develops.com:8081/dist/main.css"
     },
     {
-      "id": "./node_modules/webpack-dev-server/client/index.js?http://localhost:8000",
-      "name": "./node_modules/webpack-dev-server/client/index.js?http://localhost:8000",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
+      "id": 12,
+      "name": "./node_modules/object-assign/index.js",
+      "file": "main-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/main-bundle.js"
     }
   ],
-  "./overlay": [
+  "@babel/runtime/helpers/classCallCheck": [
     {
-      "id": "./node_modules/webpack-dev-server/client/overlay.js",
-      "name": "./node_modules/webpack-dev-server/client/overlay.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "id": 13,
+      "name": "./node_modules/@babel/runtime/helpers/classCallCheck.js",
+      "file": "main.css",
+      "publicPath": "http://toni-develops.com:8081/dist/main.css"
     },
     {
-      "id": "./node_modules/webpack-dev-server/client/overlay.js",
-      "name": "./node_modules/webpack-dev-server/client/overlay.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
+      "id": 13,
+      "name": "./node_modules/@babel/runtime/helpers/classCallCheck.js",
+      "file": "main-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/main-bundle.js"
     }
   ],
-  "./socket": [
+  "@babel/runtime/helpers/createClass": [
     {
-      "id": "./node_modules/webpack-dev-server/client/socket.js",
-      "name": "./node_modules/webpack-dev-server/client/socket.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "id": 14,
+      "name": "./node_modules/@babel/runtime/helpers/createClass.js",
+      "file": "main.css",
+      "publicPath": "http://toni-develops.com:8081/dist/main.css"
     },
     {
-      "id": "./node_modules/webpack-dev-server/client/socket.js",
-      "name": "./node_modules/webpack-dev-server/client/socket.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
+      "id": 14,
+      "name": "./node_modules/@babel/runtime/helpers/createClass.js",
+      "file": "main-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/main-bundle.js"
     }
   ],
-  "./utils/createSocketUrl": [
+  "@babel/runtime/helpers/inherits": [
     {
-      "id": "./node_modules/webpack-dev-server/client/utils/createSocketUrl.js",
-      "name": "./node_modules/webpack-dev-server/client/utils/createSocketUrl.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "id": 15,
+      "name": "./node_modules/@babel/runtime/helpers/inherits.js",
+      "file": "main.css",
+      "publicPath": "http://toni-develops.com:8081/dist/main.css"
     },
     {
-      "id": "./node_modules/webpack-dev-server/client/utils/createSocketUrl.js",
-      "name": "./node_modules/webpack-dev-server/client/utils/createSocketUrl.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
+      "id": 15,
+      "name": "./node_modules/@babel/runtime/helpers/inherits.js",
+      "file": "main-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/main-bundle.js"
     }
   ],
-  "./getCurrentScriptSource": [
+  "@babel/runtime/helpers/possibleConstructorReturn": [
     {
-      "id": "./node_modules/webpack-dev-server/client/utils/getCurrentScriptSource.js",
-      "name": "./node_modules/webpack-dev-server/client/utils/getCurrentScriptSource.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "id": 16,
+      "name": "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
+      "file": "main.css",
+      "publicPath": "http://toni-develops.com:8081/dist/main.css"
     },
     {
-      "id": "./node_modules/webpack-dev-server/client/utils/getCurrentScriptSource.js",
-      "name": "./node_modules/webpack-dev-server/client/utils/getCurrentScriptSource.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
+      "id": 16,
+      "name": "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
+      "file": "main-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/main-bundle.js"
     }
   ],
-  "./utils/log": [
+  "react-router-dom": [
     {
-      "id": "./node_modules/webpack-dev-server/client/utils/log.js",
-      "name": "./node_modules/webpack-dev-server/client/utils/log.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "id": 17,
+      "name": "./node_modules/react-router-dom/esm/react-router-dom.js",
+      "file": "main.css",
+      "publicPath": "http://toni-develops.com:8081/dist/main.css"
     },
     {
-      "id": "./node_modules/webpack-dev-server/client/utils/log.js",
-      "name": "./node_modules/webpack-dev-server/client/utils/log.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
+      "id": 17,
+      "name": "./node_modules/react-router-dom/esm/react-router-dom.js",
+      "file": "main-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/main-bundle.js"
     }
   ],
-  "./utils/reloadApp": [
+  "react-is": [
     {
-      "id": "./node_modules/webpack-dev-server/client/utils/reloadApp.js",
-      "name": "./node_modules/webpack-dev-server/client/utils/reloadApp.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "id": 18,
+      "name": "./node_modules/react-is/index.js",
+      "file": "main.css",
+      "publicPath": "http://toni-develops.com:8081/dist/main.css"
     },
     {
-      "id": "./node_modules/webpack-dev-server/client/utils/reloadApp.js",
-      "name": "./node_modules/webpack-dev-server/client/utils/reloadApp.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
+      "id": 18,
+      "name": "./node_modules/react-is/index.js",
+      "file": "main-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/main-bundle.js"
     }
   ],
-  "./utils/sendMessage": [
+  "react-dom": [
     {
-      "id": "./node_modules/webpack-dev-server/client/utils/sendMessage.js",
-      "name": "./node_modules/webpack-dev-server/client/utils/sendMessage.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "id": 19,
+      "name": "./node_modules/react-dom/index.js",
+      "file": "main.css",
+      "publicPath": "http://toni-develops.com:8081/dist/main.css"
     },
     {
-      "id": "./node_modules/webpack-dev-server/client/utils/sendMessage.js",
-      "name": "./node_modules/webpack-dev-server/client/utils/sendMessage.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
+      "id": 19,
+      "name": "./node_modules/react-dom/index.js",
+      "file": "main-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/main-bundle.js"
     }
   ],
-  "strip-ansi": [
+  "./styles.scss": [
     {
-      "id": "./node_modules/webpack-dev-server/node_modules/strip-ansi/index.js",
-      "name": "./node_modules/webpack-dev-server/node_modules/strip-ansi/index.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "id": 20,
+      "name": "./src/components/App/styles.scss",
+      "file": "main.css",
+      "publicPath": "http://toni-develops.com:8081/dist/main.css"
     },
     {
-      "id": "./node_modules/webpack-dev-server/node_modules/strip-ansi/index.js",
-      "name": "./node_modules/webpack-dev-server/node_modules/strip-ansi/index.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
+      "id": 34,
+      "name": "./src/components/Loading/styles.scss",
+      "file": "main.css",
+      "publicPath": "http://toni-develops.com:8081/dist/main.css"
+    },
+    {
+      "id": 35,
+      "name": "./src/containers/PageLayout/styles.scss",
+      "file": "main.css",
+      "publicPath": "http://toni-develops.com:8081/dist/main.css"
+    },
+    {
+      "id": 20,
+      "name": "./src/components/App/styles.scss",
+      "file": "main-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/main-bundle.js"
+    },
+    {
+      "id": 34,
+      "name": "./src/components/Loading/styles.scss",
+      "file": "main-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/main-bundle.js"
+    },
+    {
+      "id": 35,
+      "name": "./src/containers/PageLayout/styles.scss",
+      "file": "main-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/main-bundle.js"
+    },
+    {
+      "id": 55,
+      "name": "./src/components/GeneralPopup/styles.scss",
+      "file": "1.css",
+      "publicPath": "http://toni-develops.com:8081/dist/1.css"
+    },
+    {
+      "id": 58,
+      "name": "./src/components/Home/styles.scss",
+      "file": "1.css",
+      "publicPath": "http://toni-develops.com:8081/dist/1.css"
+    },
+    {
+      "id": 60,
+      "name": "./src/components/ToggleSwitch/styles.scss",
+      "file": "1.css",
+      "publicPath": "http://toni-develops.com:8081/dist/1.css"
+    },
+    {
+      "id": 62,
+      "name": "./src/components/BulletPoint/styles.scss",
+      "file": "1.css",
+      "publicPath": "http://toni-develops.com:8081/dist/1.css"
+    },
+    {
+      "id": 64,
+      "name": "./src/components/AddFlagPopup/styles.scss",
+      "file": "1.css",
+      "publicPath": "http://toni-develops.com:8081/dist/1.css"
+    },
+    {
+      "id": 66,
+      "name": "./src/components/EditDelete/styles.scss",
+      "file": "1.css",
+      "publicPath": "http://toni-develops.com:8081/dist/1.css"
+    },
+    {
+      "id": 55,
+      "name": "./src/components/GeneralPopup/styles.scss",
+      "file": "1-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/1-bundle.js"
+    },
+    {
+      "id": 58,
+      "name": "./src/components/Home/styles.scss",
+      "file": "1-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/1-bundle.js"
+    },
+    {
+      "id": 60,
+      "name": "./src/components/ToggleSwitch/styles.scss",
+      "file": "1-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/1-bundle.js"
+    },
+    {
+      "id": 62,
+      "name": "./src/components/BulletPoint/styles.scss",
+      "file": "1-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/1-bundle.js"
+    },
+    {
+      "id": 64,
+      "name": "./src/components/AddFlagPopup/styles.scss",
+      "file": "1-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/1-bundle.js"
+    },
+    {
+      "id": 66,
+      "name": "./src/components/EditDelete/styles.scss",
+      "file": "1-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/1-bundle.js"
+    },
+    {
+      "id": 55,
+      "name": "./src/components/GeneralPopup/styles.scss",
+      "file": "2.css",
+      "publicPath": "http://toni-develops.com:8081/dist/2.css"
+    },
+    {
+      "id": 57,
+      "name": "./src/components/Header/styles.scss",
+      "file": "2.css",
+      "publicPath": "http://toni-develops.com:8081/dist/2.css"
+    },
+    {
+      "id": 55,
+      "name": "./src/components/GeneralPopup/styles.scss",
+      "file": "2-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/2-bundle.js"
+    },
+    {
+      "id": 57,
+      "name": "./src/components/Header/styles.scss",
+      "file": "2-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/2-bundle.js"
+    },
+    {
+      "id": 68,
+      "name": "./src/components/Setup/styles.scss",
+      "file": "3.css",
+      "publicPath": "http://toni-develops.com:8081/dist/3.css"
+    },
+    {
+      "id": 68,
+      "name": "./src/components/Setup/styles.scss",
+      "file": "3-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/3-bundle.js"
+    },
+    {
+      "id": 67,
+      "name": "./src/components/About/styles.scss",
+      "file": "4.css",
+      "publicPath": "http://toni-develops.com:8081/dist/4.css"
+    },
+    {
+      "id": 67,
+      "name": "./src/components/About/styles.scss",
+      "file": "4-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/4-bundle.js"
+    }
+  ],
+  "mini-create-react-context": [
+    {
+      "id": 21,
+      "name": "./node_modules/mini-create-react-context/dist/esm/index.js",
+      "file": "main.css",
+      "publicPath": "http://toni-develops.com:8081/dist/main.css"
+    },
+    {
+      "id": 21,
+      "name": "./node_modules/mini-create-react-context/dist/esm/index.js",
+      "file": "main-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/main-bundle.js"
+    }
+  ],
+  "hoist-non-react-statics": [
+    {
+      "id": 22,
+      "name": "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+      "file": "main.css",
+      "publicPath": "http://toni-develops.com:8081/dist/main.css"
+    },
+    {
+      "id": 22,
+      "name": "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+      "file": "main-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/main-bundle.js"
     }
   ],
   "./../../../webpack/buildin/global.js": [
     {
-      "id": "./node_modules/webpack/buildin/global.js",
+      "id": 23,
+      "name": "./node_modules/webpack/buildin/global.js",
+      "file": "main.css",
+      "publicPath": "http://toni-develops.com:8081/dist/main.css"
+    },
+    {
+      "id": 23,
       "name": "./node_modules/webpack/buildin/global.js",
       "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
-    },
-    {
-      "id": "./node_modules/webpack/buildin/global.js",
-      "name": "./node_modules/webpack/buildin/global.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
+      "publicPath": "http://toni-develops.com:8081/dist/main-bundle.js"
     }
   ],
-  "./../../../webpack/buildin/module.js": [
+  "./cjs/react.production.min.js": [
     {
-      "id": "./node_modules/webpack/buildin/module.js",
-      "name": "./node_modules/webpack/buildin/module.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "id": 25,
+      "name": "./node_modules/react/cjs/react.production.min.js",
+      "file": "main.css",
+      "publicPath": "http://toni-develops.com:8081/dist/main.css"
     },
     {
-      "id": "./node_modules/webpack/buildin/module.js",
-      "name": "./node_modules/webpack/buildin/module.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
+      "id": 25,
+      "name": "./node_modules/react/cjs/react.production.min.js",
+      "file": "main-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/main-bundle.js"
     }
   ],
-  "/Users/toninichev/Cloud/workspace/AWS/dataManager/webApp/node_modules/webpack/hot/dev-server.js": [
+  "./cjs/react-dom.production.min.js": [
     {
-      "id": "./node_modules/webpack/hot/dev-server.js",
-      "name": "./node_modules/webpack/hot/dev-server.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "id": 26,
+      "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+      "file": "main.css",
+      "publicPath": "http://toni-develops.com:8081/dist/main.css"
     },
     {
-      "id": "./node_modules/webpack/hot/dev-server.js",
-      "name": "./node_modules/webpack/hot/dev-server.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
+      "id": 26,
+      "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+      "file": "main-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/main-bundle.js"
     }
   ],
-  "./emitter": [
+  "scheduler": [
     {
-      "id": "./node_modules/webpack/hot/emitter.js",
-      "name": "./node_modules/webpack/hot/emitter.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "id": 27,
+      "name": "./node_modules/scheduler/index.js",
+      "file": "main.css",
+      "publicPath": "http://toni-develops.com:8081/dist/main.css"
     },
     {
-      "id": "./node_modules/webpack/hot/emitter.js",
-      "name": "./node_modules/webpack/hot/emitter.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
+      "id": 27,
+      "name": "./node_modules/scheduler/index.js",
+      "file": "main-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/main-bundle.js"
     }
   ],
-  "./log-apply-result": [
+  "./cjs/scheduler.production.min.js": [
     {
-      "id": "./node_modules/webpack/hot/log-apply-result.js",
-      "name": "./node_modules/webpack/hot/log-apply-result.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "id": 28,
+      "name": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+      "file": "main.css",
+      "publicPath": "http://toni-develops.com:8081/dist/main.css"
     },
     {
-      "id": "./node_modules/webpack/hot/log-apply-result.js",
-      "name": "./node_modules/webpack/hot/log-apply-result.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
+      "id": 28,
+      "name": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+      "file": "main-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/main-bundle.js"
     }
   ],
-  "./log": [
+  "./setPrototypeOf.js": [
     {
-      "id": "./node_modules/webpack/hot/log.js",
-      "name": "./node_modules/webpack/hot/log.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "id": 29,
+      "name": "./node_modules/@babel/runtime/helpers/setPrototypeOf.js",
+      "file": "main.css",
+      "publicPath": "http://toni-develops.com:8081/dist/main.css"
     },
     {
-      "id": "./node_modules/webpack/hot/log.js",
-      "name": "./node_modules/webpack/hot/log.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
+      "id": 29,
+      "name": "./node_modules/@babel/runtime/helpers/setPrototypeOf.js",
+      "file": "main-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/main-bundle.js"
     }
   ],
-  "./components/App": [
+  "./typeof.js": [
     {
-      "id": "./src/components/App/index.js",
-      "name": "./src/components/App/index.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "id": 30,
+      "name": "./node_modules/@babel/runtime/helpers/typeof.js",
+      "file": "main.css",
+      "publicPath": "http://toni-develops.com:8081/dist/main.css"
     },
     {
-      "id": "./src/components/App/index.js",
-      "name": "./src/components/App/index.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
+      "id": 30,
+      "name": "./node_modules/@babel/runtime/helpers/typeof.js",
+      "file": "main-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/main-bundle.js"
     }
   ],
-  "../../../components/Loading": [
+  "./assertThisInitialized.js": [
     {
-      "id": "./src/components/Loading/index.js",
-      "name": "./src/components/Loading/index.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "id": 31,
+      "name": "./node_modules/@babel/runtime/helpers/assertThisInitialized.js",
+      "file": "main.css",
+      "publicPath": "http://toni-develops.com:8081/dist/main.css"
     },
     {
-      "id": "./src/components/Loading/index.js",
-      "name": "./src/components/Loading/index.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
+      "id": 31,
+      "name": "./node_modules/@babel/runtime/helpers/assertThisInitialized.js",
+      "file": "main-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/main-bundle.js"
     }
   ],
-  "./ComponentList": [
+  "./factoryWithThrowingShims": [
     {
-      "id": "./src/containers/PageLayout/ComponentList/index.js",
-      "name": "./src/containers/PageLayout/ComponentList/index.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "id": 32,
+      "name": "./node_modules/prop-types/factoryWithThrowingShims.js",
+      "file": "main.css",
+      "publicPath": "http://toni-develops.com:8081/dist/main.css"
     },
     {
-      "id": "./src/containers/PageLayout/ComponentList/index.js",
-      "name": "./src/containers/PageLayout/ComponentList/index.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
+      "id": 32,
+      "name": "./node_modules/prop-types/factoryWithThrowingShims.js",
+      "file": "main-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/main-bundle.js"
     }
   ],
-  "./PageData": [
+  "./lib/ReactPropTypesSecret": [
     {
-      "id": "./src/containers/PageLayout/PageData/index.js",
-      "name": "./src/containers/PageLayout/PageData/index.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "id": 33,
+      "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+      "file": "main.css",
+      "publicPath": "http://toni-develops.com:8081/dist/main.css"
     },
     {
-      "id": "./src/containers/PageLayout/PageData/index.js",
-      "name": "./src/containers/PageLayout/PageData/index.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
+      "id": 33,
+      "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+      "file": "main-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/main-bundle.js"
     }
   ],
-  "../../containers/PageLayout": [
+  "isarray": [
     {
-      "id": "./src/containers/PageLayout/index.js",
-      "name": "./src/containers/PageLayout/index.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "id": 36,
+      "name": "./node_modules/react-router/node_modules/isarray/index.js",
+      "file": "main.css",
+      "publicPath": "http://toni-develops.com:8081/dist/main.css"
     },
     {
-      "id": "./src/containers/PageLayout/index.js",
-      "name": "./src/containers/PageLayout/index.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
+      "id": 36,
+      "name": "./node_modules/react-router/node_modules/isarray/index.js",
+      "file": "main-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/main-bundle.js"
     }
   ],
-  "../../fonts/aclonica/aclonica-regular.woff2": [
+  "./cjs/react-is.production.min.js": [
     {
-      "id": "./src/fonts/aclonica/aclonica-regular.woff2",
-      "name": "./src/fonts/aclonica/aclonica-regular.woff2",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "id": 37,
+      "name": "./node_modules/react-is/cjs/react-is.production.min.js",
+      "file": "main.css",
+      "publicPath": "http://toni-develops.com:8081/dist/main.css"
     },
     {
-      "id": "./src/fonts/aclonica/aclonica-regular.woff2",
-      "name": "./src/fonts/aclonica/aclonica-regular.woff2",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
+      "id": 37,
+      "name": "./node_modules/react-is/cjs/react-is.production.min.js",
+      "file": "main-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/main-bundle.js"
     }
   ],
   "./src/index.js": [
     {
-      "id": "./src/index.js",
+      "id": 38,
       "name": "./src/index.js",
-      "file": "main-bundle.js",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js"
+      "file": "main.css",
+      "publicPath": "http://toni-develops.com:8081/dist/main.css"
     },
     {
-      "id": "./src/index.js",
+      "id": 38,
       "name": "./src/index.js",
-      "file": "main-bundle.js.map",
-      "publicPath": "http://localhost:8000/dist/main-bundle.js.map"
+      "file": "main-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/main-bundle.js"
+    }
+  ],
+  "../../../components/Home": [
+    {
+      "id": 40,
+      "name": "./src/components/Home/index.js",
+      "file": "1.css",
+      "publicPath": "http://toni-develops.com:8081/dist/1.css"
+    },
+    {
+      "id": 40,
+      "name": "./src/components/Home/index.js",
+      "file": "1-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/1-bundle.js"
+    }
+  ],
+  "../../containers/EventsManager": [
+    {
+      "id": 43,
+      "name": "./src/containers/EventsManager/index.js",
+      "file": "1.css",
+      "publicPath": "http://toni-develops.com:8081/dist/1.css"
+    },
+    {
+      "id": 43,
+      "name": "./src/containers/EventsManager/index.js",
+      "file": "1-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/1-bundle.js"
+    },
+    {
+      "id": 43,
+      "name": "./src/containers/EventsManager/index.js",
+      "file": "2.css",
+      "publicPath": "http://toni-develops.com:8081/dist/2.css"
+    },
+    {
+      "id": 43,
+      "name": "./src/containers/EventsManager/index.js",
+      "file": "2-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/2-bundle.js"
+    }
+  ],
+  "@babel/runtime/helpers/asyncToGenerator": [
+    {
+      "id": 44,
+      "name": "./node_modules/@babel/runtime/helpers/asyncToGenerator.js",
+      "file": "1.css",
+      "publicPath": "http://toni-develops.com:8081/dist/1.css"
+    },
+    {
+      "id": 44,
+      "name": "./node_modules/@babel/runtime/helpers/asyncToGenerator.js",
+      "file": "1-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/1-bundle.js"
+    },
+    {
+      "id": 44,
+      "name": "./node_modules/@babel/runtime/helpers/asyncToGenerator.js",
+      "file": "3.css",
+      "publicPath": "http://toni-develops.com:8081/dist/3.css"
+    },
+    {
+      "id": 44,
+      "name": "./node_modules/@babel/runtime/helpers/asyncToGenerator.js",
+      "file": "3-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/3-bundle.js"
+    }
+  ],
+  "@babel/runtime/regenerator": [
+    {
+      "id": 45,
+      "name": "./node_modules/@babel/runtime/regenerator/index.js",
+      "file": "1.css",
+      "publicPath": "http://toni-develops.com:8081/dist/1.css"
+    },
+    {
+      "id": 45,
+      "name": "./node_modules/@babel/runtime/regenerator/index.js",
+      "file": "1-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/1-bundle.js"
+    },
+    {
+      "id": 45,
+      "name": "./node_modules/@babel/runtime/regenerator/index.js",
+      "file": "3.css",
+      "publicPath": "http://toni-develops.com:8081/dist/3.css"
+    },
+    {
+      "id": 45,
+      "name": "./node_modules/@babel/runtime/regenerator/index.js",
+      "file": "3-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/3-bundle.js"
+    }
+  ],
+  "../../utils/Poster": [
+    {
+      "id": 46,
+      "name": "./src/utils/Poster.js",
+      "file": "1.css",
+      "publicPath": "http://toni-develops.com:8081/dist/1.css"
+    },
+    {
+      "id": 46,
+      "name": "./src/utils/Poster.js",
+      "file": "1-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/1-bundle.js"
+    },
+    {
+      "id": 46,
+      "name": "./src/utils/Poster.js",
+      "file": "3.css",
+      "publicPath": "http://toni-develops.com:8081/dist/3.css"
+    },
+    {
+      "id": 46,
+      "name": "./src/utils/Poster.js",
+      "file": "3-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/3-bundle.js"
+    }
+  ],
+  "../../utils/getParams": [
+    {
+      "id": 47,
+      "name": "./src/utils/getParams.js",
+      "file": "1.css",
+      "publicPath": "http://toni-develops.com:8081/dist/1.css"
+    },
+    {
+      "id": 47,
+      "name": "./src/utils/getParams.js",
+      "file": "1-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/1-bundle.js"
+    },
+    {
+      "id": 47,
+      "name": "./src/utils/getParams.js",
+      "file": "3.css",
+      "publicPath": "http://toni-develops.com:8081/dist/3.css"
+    },
+    {
+      "id": 47,
+      "name": "./src/utils/getParams.js",
+      "file": "3-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/3-bundle.js"
+    }
+  ],
+  "../GeneralPopup": [
+    {
+      "id": 48,
+      "name": "./src/components/GeneralPopup/index.js",
+      "file": "1.css",
+      "publicPath": "http://toni-develops.com:8081/dist/1.css"
+    },
+    {
+      "id": 48,
+      "name": "./src/components/GeneralPopup/index.js",
+      "file": "1-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/1-bundle.js"
+    },
+    {
+      "id": 48,
+      "name": "./src/components/GeneralPopup/index.js",
+      "file": "2.css",
+      "publicPath": "http://toni-develops.com:8081/dist/2.css"
+    },
+    {
+      "id": 48,
+      "name": "./src/components/GeneralPopup/index.js",
+      "file": "2-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/2-bundle.js"
+    }
+  ],
+  "@babel/runtime/helpers/slicedToArray": [
+    {
+      "id": 49,
+      "name": "./node_modules/@babel/runtime/helpers/slicedToArray.js",
+      "file": "1.css",
+      "publicPath": "http://toni-develops.com:8081/dist/1.css"
+    },
+    {
+      "id": 49,
+      "name": "./node_modules/@babel/runtime/helpers/slicedToArray.js",
+      "file": "1-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/1-bundle.js"
+    },
+    {
+      "id": 49,
+      "name": "./node_modules/@babel/runtime/helpers/slicedToArray.js",
+      "file": "2.css",
+      "publicPath": "http://toni-develops.com:8081/dist/2.css"
+    },
+    {
+      "id": 49,
+      "name": "./node_modules/@babel/runtime/helpers/slicedToArray.js",
+      "file": "2-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/2-bundle.js"
+    }
+  ],
+  "./arrayWithHoles.js": [
+    {
+      "id": 50,
+      "name": "./node_modules/@babel/runtime/helpers/arrayWithHoles.js",
+      "file": "1.css",
+      "publicPath": "http://toni-develops.com:8081/dist/1.css"
+    },
+    {
+      "id": 50,
+      "name": "./node_modules/@babel/runtime/helpers/arrayWithHoles.js",
+      "file": "1-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/1-bundle.js"
+    },
+    {
+      "id": 50,
+      "name": "./node_modules/@babel/runtime/helpers/arrayWithHoles.js",
+      "file": "2.css",
+      "publicPath": "http://toni-develops.com:8081/dist/2.css"
+    },
+    {
+      "id": 50,
+      "name": "./node_modules/@babel/runtime/helpers/arrayWithHoles.js",
+      "file": "2-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/2-bundle.js"
+    }
+  ],
+  "./iterableToArrayLimit.js": [
+    {
+      "id": 51,
+      "name": "./node_modules/@babel/runtime/helpers/iterableToArrayLimit.js",
+      "file": "1.css",
+      "publicPath": "http://toni-develops.com:8081/dist/1.css"
+    },
+    {
+      "id": 51,
+      "name": "./node_modules/@babel/runtime/helpers/iterableToArrayLimit.js",
+      "file": "1-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/1-bundle.js"
+    },
+    {
+      "id": 51,
+      "name": "./node_modules/@babel/runtime/helpers/iterableToArrayLimit.js",
+      "file": "2.css",
+      "publicPath": "http://toni-develops.com:8081/dist/2.css"
+    },
+    {
+      "id": 51,
+      "name": "./node_modules/@babel/runtime/helpers/iterableToArrayLimit.js",
+      "file": "2-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/2-bundle.js"
+    }
+  ],
+  "./unsupportedIterableToArray.js": [
+    {
+      "id": 52,
+      "name": "./node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js",
+      "file": "1.css",
+      "publicPath": "http://toni-develops.com:8081/dist/1.css"
+    },
+    {
+      "id": 52,
+      "name": "./node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js",
+      "file": "1-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/1-bundle.js"
+    },
+    {
+      "id": 52,
+      "name": "./node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js",
+      "file": "2.css",
+      "publicPath": "http://toni-develops.com:8081/dist/2.css"
+    },
+    {
+      "id": 52,
+      "name": "./node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js",
+      "file": "2-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/2-bundle.js"
+    }
+  ],
+  "./arrayLikeToArray.js": [
+    {
+      "id": 53,
+      "name": "./node_modules/@babel/runtime/helpers/arrayLikeToArray.js",
+      "file": "1.css",
+      "publicPath": "http://toni-develops.com:8081/dist/1.css"
+    },
+    {
+      "id": 53,
+      "name": "./node_modules/@babel/runtime/helpers/arrayLikeToArray.js",
+      "file": "1-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/1-bundle.js"
+    },
+    {
+      "id": 53,
+      "name": "./node_modules/@babel/runtime/helpers/arrayLikeToArray.js",
+      "file": "2.css",
+      "publicPath": "http://toni-develops.com:8081/dist/2.css"
+    },
+    {
+      "id": 53,
+      "name": "./node_modules/@babel/runtime/helpers/arrayLikeToArray.js",
+      "file": "2-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/2-bundle.js"
+    }
+  ],
+  "./nonIterableRest.js": [
+    {
+      "id": 54,
+      "name": "./node_modules/@babel/runtime/helpers/nonIterableRest.js",
+      "file": "1.css",
+      "publicPath": "http://toni-develops.com:8081/dist/1.css"
+    },
+    {
+      "id": 54,
+      "name": "./node_modules/@babel/runtime/helpers/nonIterableRest.js",
+      "file": "1-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/1-bundle.js"
+    },
+    {
+      "id": 54,
+      "name": "./node_modules/@babel/runtime/helpers/nonIterableRest.js",
+      "file": "2.css",
+      "publicPath": "http://toni-develops.com:8081/dist/2.css"
+    },
+    {
+      "id": 54,
+      "name": "./node_modules/@babel/runtime/helpers/nonIterableRest.js",
+      "file": "2-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/2-bundle.js"
+    }
+  ],
+  "regenerator-runtime": [
+    {
+      "id": 56,
+      "name": "./node_modules/regenerator-runtime/runtime.js",
+      "file": "1.css",
+      "publicPath": "http://toni-develops.com:8081/dist/1.css"
+    },
+    {
+      "id": 56,
+      "name": "./node_modules/regenerator-runtime/runtime.js",
+      "file": "1-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/1-bundle.js"
+    },
+    {
+      "id": 56,
+      "name": "./node_modules/regenerator-runtime/runtime.js",
+      "file": "3.css",
+      "publicPath": "http://toni-develops.com:8081/dist/3.css"
+    },
+    {
+      "id": 56,
+      "name": "./node_modules/regenerator-runtime/runtime.js",
+      "file": "3-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/3-bundle.js"
+    }
+  ],
+  "../ToggleSwitch": [
+    {
+      "id": 59,
+      "name": "./src/components/ToggleSwitch/index.js",
+      "file": "1.css",
+      "publicPath": "http://toni-develops.com:8081/dist/1.css"
+    },
+    {
+      "id": 59,
+      "name": "./src/components/ToggleSwitch/index.js",
+      "file": "1-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/1-bundle.js"
+    }
+  ],
+  "../BulletPoint": [
+    {
+      "id": 61,
+      "name": "./src/components/BulletPoint/index.js",
+      "file": "1.css",
+      "publicPath": "http://toni-develops.com:8081/dist/1.css"
+    },
+    {
+      "id": 61,
+      "name": "./src/components/BulletPoint/index.js",
+      "file": "1-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/1-bundle.js"
+    }
+  ],
+  "../AddFlagPopup": [
+    {
+      "id": 63,
+      "name": "./src/components/AddFlagPopup/index.js",
+      "file": "1.css",
+      "publicPath": "http://toni-develops.com:8081/dist/1.css"
+    },
+    {
+      "id": 63,
+      "name": "./src/components/AddFlagPopup/index.js",
+      "file": "1-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/1-bundle.js"
+    }
+  ],
+  "../EditDelete": [
+    {
+      "id": 65,
+      "name": "./src/components/EditDelete/index.js",
+      "file": "1.css",
+      "publicPath": "http://toni-develops.com:8081/dist/1.css"
+    },
+    {
+      "id": 65,
+      "name": "./src/components/EditDelete/index.js",
+      "file": "1-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/1-bundle.js"
+    }
+  ],
+  "../../../components/Header": [
+    {
+      "id": 39,
+      "name": "./src/components/Header/index.js",
+      "file": "2.css",
+      "publicPath": "http://toni-develops.com:8081/dist/2.css"
+    },
+    {
+      "id": 39,
+      "name": "./src/components/Header/index.js",
+      "file": "2-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/2-bundle.js"
+    }
+  ],
+  "../../../components/Setup": [
+    {
+      "id": 42,
+      "name": "./src/components/Setup/index.js",
+      "file": "3.css",
+      "publicPath": "http://toni-develops.com:8081/dist/3.css"
+    },
+    {
+      "id": 42,
+      "name": "./src/components/Setup/index.js",
+      "file": "3-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/3-bundle.js"
+    }
+  ],
+  "../../../components/About": [
+    {
+      "id": 41,
+      "name": "./src/components/About/index.js",
+      "file": "4.css",
+      "publicPath": "http://toni-develops.com:8081/dist/4.css"
+    },
+    {
+      "id": 41,
+      "name": "./src/components/About/index.js",
+      "file": "4-bundle.js",
+      "publicPath": "http://toni-develops.com:8081/dist/4-bundle.js"
     }
   ]
 }
