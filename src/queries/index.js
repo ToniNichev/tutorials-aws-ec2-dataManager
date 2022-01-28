@@ -18,13 +18,19 @@ export default {
 
    updateFeatureFlag: async (searchObject, newObject) => {
      delete newObject._id;
-      await mongoDB.update(searchObject, newObject, collectionName, (result) => {
+      await mongoDB.update(searchObject, newObject, collectionName, () => {
         return true;
     });     
    },    
 
    addFeatureFlag: async (flagData) => {
     mongoDB.add(flagData, collectionName, () => {
+      return true;
+    });     
+   }, 
+
+   deleteFlag:  async (flagData) => {
+    mongoDB.deleteFlag(flagData._id, collectionName, () => {
       return true;
     });     
    }, 

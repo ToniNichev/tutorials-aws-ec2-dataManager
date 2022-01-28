@@ -122,6 +122,17 @@ app.post('/services/find',
   .send(result);  
 });
 
+app.post('/services/delete', async (req, res) => {
+  const flagData = JSON.parse(req.body);
+  const result = await queries.deleteFlag(flagData);
+  res
+  .status(200)
+  .set('Content-Type', 'application/json')
+  .set('Access-Control-Allow-Origin', '*')
+  .set('Access-Control-Allow-Headers', '*')
+  .send( {'success': true});  
+});
+
 app.post('/services/update', async (req, res) => {
   const flagData = JSON.parse(req.body);
   const result = await queries.updateFeatureFlag(flagData.updateFlag, flagData.newFlagData);
@@ -130,7 +141,7 @@ app.post('/services/update', async (req, res) => {
   .set('Content-Type', 'application/json')
   .set('Access-Control-Allow-Origin', '*')
   .set('Access-Control-Allow-Headers', '*')
-  .send(" 12345 ");  
+  .send( {'success': true} );  
 });
 
 app.post('/services/add', async (req, res) => {
@@ -141,7 +152,7 @@ app.post('/services/add', async (req, res) => {
   .set('Content-Type', 'application/json')
   .set('Access-Control-Allow-Origin', '*')
   .set('Access-Control-Allow-Headers', '*')
-  .send(" 12345 ");  
+  .send( {'success': true});  
 });
 
 app.post('/services/setup', async (req, res) => {

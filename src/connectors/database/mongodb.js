@@ -34,6 +34,21 @@ export default {
       console.log(err.stack);
     }  
   },
+
+  deleteFlag: async (docObject, collectionName) => {
+    let result;
+
+    try  {
+      const db = await connect();
+      var ObjectId = require('mongodb').ObjectID;
+      result = await db.collection(collectionName).deleteOne( {_id: new ObjectId(docObject) });
+      return result;
+    }
+    catch (err) {
+      console.log(err.stack);
+    }  
+  },
+
 	
 	find: async (searchObject, collectionName) => {
     let client;

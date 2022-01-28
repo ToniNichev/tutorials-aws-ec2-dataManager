@@ -59,15 +59,17 @@ class Diseases extends Component {
           <div className={styles.leftRail}>
             <div className={styles.title}>FLAGS</div>
               {featureFlags.map( (flag, id) => 
-                <div key={flag.flagName} className={styles.flagWrapper} onClick={ () => { this.editItem(id) }}>
-                  <BulletPoint flagName={flag.displayName} status={this.state.flagEditable} />
-                  <span className={styles.flagName}>{flag.conceptId}</span>
-                  <span className={styles.flagName}>{flag.displayName}</span>
-                  <span className={styles.flagName}>{flag.description}</span>
-                  <span className={styles.flagName}>{flag.parentIds}</span>
-                  <span className={styles.flagName}>{flag.childIds}</span>
-                  <span className={styles.flagName}>{flag.alternateNames}</span>
-                  <span className={styles.flagValue}><ToggleSwitch featureFlagName={flag.flagName} val={flag.value} /></span>
+                <div key={flag.flagName} className={styles.flagWrapper}>
+                  <BulletPoint flagName={flag._id} status={this.state.flagEditable} />
+                    <span onClick={ () => { this.editItem(id) }}>
+                      <span className={styles.flagName}>{flag.conceptId}</span>
+                      <span className={styles.flagName}>{flag.displayName}</span>
+                      <span className={styles.flagName}>{flag.description}</span>
+                      <span className={styles.flagName}>{flag.parentIds}</span>
+                      <span className={styles.flagName}>{flag.childIds}</span>
+                      <span className={styles.flagName}>{flag.alternateNames}</span>
+                      <span className={styles.flagValue}><ToggleSwitch featureFlagName={flag.flagName} val={flag.value} /></span>
+                    </span>
                 </div>
               )}
           </div>      

@@ -7,6 +7,8 @@ export const Poster = async (url = '', data = {}) => {
     headers: {'Content-Type': 'text/plain' },
     body: JSON.stringify(data)
     });
+    console.log(">>>>>>>>>>>>>>>>", response);
+
     return  response.json(); // parses JSON response into native JavaScript objects
 }
 

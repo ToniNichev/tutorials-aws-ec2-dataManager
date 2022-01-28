@@ -2,11 +2,16 @@ import React from 'react';
 import styles from './styles.scss';
 import EventsManager from '../../containers/EventsManager';
 import GenralPopup from '../GeneralPopup';
+import {Poster} from '../../utils/Poster';
+import { apiUrl } from '../../utils/getParams';
 
-const deleteFlags = () => {
+const deleteFlags = async () => {
   const list = EventsManager.callEvent('getSelectedList')();
+  //const result = await Poster(`${apiUrl}/delete`, {'_id': '61f438df0680e3da198d928b'});
+  
   for(var index in list) {
-    console.log(">>>", index);
+    console.log("items for deletion >>>", index);
+    const result = await Poster(`${apiUrl}/delete`, {'_id': index});
   }
 }
 
