@@ -4,33 +4,65 @@ import { apiUrl } from '../../utils/getParams';
 import EventsManager from  '../../containers/EventsManager';
 import {Poster} from '../../utils/Poster';
 
-const addFlag = async (closePopup) => {
+const addEditFlag = async (editFlagId, closePopup) => {
   const flag = {
-    "group": document.getElementById('addFeatureFlag').querySelector("input.group").value,
-    "flagName": document.getElementById('addFeatureFlag').querySelector("input.flagName").value ,
-    "value": document.getElementById('addFeatureFlag').querySelector("input.value").value,
+    conceptId: parseInt(document.getElementById('addFeatureFlag').querySelector(".conceptId").innerHTML),
+    description: document.getElementById('addFeatureFlag').querySelector("input.description").value,
+    displayName: document.getElementById('addFeatureFlag').querySelector("input.displayName").value ,
+    parentIds: document.getElementById('addFeatureFlag').querySelector("input.parentIds").value,
+    childIds: document.getElementById('addFeatureFlag').querySelector("input.childIds").value,
   };
-  const searchResult = await Poster(`${apiUrl}/find`,  {'flagName' : flag.flagName} );  
-  if(searchResult.length > 0) {
-    EventsManager.callEvent('showPopup')(`Flag with name: ${flag.flagName} already exists!`);
+  const searchResult = await Poster(`${apiUrl}/find`,  {'displayName' : flag.displayName} );  
+
+
+  if(editFlagId === null) {
+    if(searchResult.length > 0) {
+      EventsManager.callEvent('showPopup')(`Concept with name: ${flag.displayName} already exists!`);
+    }
+    else {    
+      // adding new concept
+      const result = await Poster(`${apiUrl}/add`, flag);
+      closePopup();
+    }
   }
   else {
-    const result = await Poster(`${apiUrl}/add`, flag);
+    // edit existing concept
+    const data = {
+      "updateFlag": { conceptId: editFlagId},
+      "newFlagData": flag
+    }
+    const result = await Poster(`${apiUrl}/update`, data);
     closePopup();
   }
 }
 
 
-const Renderer = ({closePopup}) => {  
+const Renderer = ({flags, closePopup, editFlagId}) => {  
+  let id = flags.length + 1;
+  let displayName = '';
+  let description = '';
+  let parentIds = '';
+  let childIds = '';
+  if(editFlagId !== null) {
+    // edit item mode
+    const curentEditedFlag = flags[editFlagId];
+    id = editFlagId;
+    displayName = curentEditedFlag.displayName;
+    description = curentEditedFlag.description;
+    parentIds = curentEditedFlag.parentIds;
+    childIds = curentEditedFlag.childIds;
+  }
   return (
     <div id="addFeatureFlag" className={styles.modal}>
       <div className={styles.modalContent}>
         <span onClick={ () => { closePopup() } } className={styles.close}>&times;</span>
         <div className={styles.flagProperties}>
-          <p><label>FLAG NAME</label> <input className="flagName" type="text" /></p>
-          <p><label>GROOUP</label> <input className="group" type="text" /></p>
-          <p><label>VALUE</label> <input className="value" type="text" /></p>
-          <p><button onClick={ () => { addFlag(closePopup) } }>ADD FLAG</button></p>
+          <p><label>id:</label><label className="conceptId">{id}</label></p>
+          <p><label>Display Name</label> <input className="displayName" type="text" defaultValue={displayName} /></p>
+          <p><label>Description</label> <input className="description" type="text" defaultValue={description} /></p>
+          <p><label>parentIDs</label> <input className="parentIds" type="text" defaultValue={parentIds} /></p>
+          <p><label>childIDs</label> <input className="childIds" type="text" defaultValue={childIds} /></p>
+          <p><button onClick={ () => { addEditFlag(editFlagId, closePopup) } }>ADD FLAG</button></p>
         </div>          
       </div>      
     </div>

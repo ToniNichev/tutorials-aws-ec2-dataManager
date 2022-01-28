@@ -113,7 +113,7 @@ app.post('/services/get',
 app.post('/services/find', 
   async (req, res) => {
   const flagData = JSON.parse(req.body);
-  const result = await queries.findFeatureFlagByName(flagData.flagName);
+  const result = await queries.findFeatureFlagByName(flagData.displayName);
   res
   .status(200)
   .set('Content-Type', 'application/json')
@@ -167,9 +167,6 @@ app.post('/services/dropdb', async (req, res) => {
 // All page requests
 app.get('/services/data', async (req, res) => {
   const result = await queries.findFeatureFlagByName('thermostat');
-
-  console.log("!@!@!@!@!");
-  console.log(result[0].value);
 
   const val = result[0].value == 'on' ? '1' : '0';
   const response = '#@$' + val;

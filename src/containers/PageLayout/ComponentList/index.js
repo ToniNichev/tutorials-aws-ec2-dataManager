@@ -5,8 +5,8 @@ const Header = Loadable({
   loader: () => import ('../../../components/Header'),
   loading: Loading
 });
-const Home = Loadable({
-  loader: () => import ('../../../components/Home'),
+const Diseases = Loadable({
+  loader: () => import ('../../../components/Diseases'),
   loading: Loading
 });
 const About = Loadable({
@@ -18,7 +18,7 @@ const Setup = Loadable({
   loading: Loading
 });
 export default {
-  Home,
+  Diseases,
   About,
   Setup,
   Header,

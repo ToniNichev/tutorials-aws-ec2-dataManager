@@ -7,20 +7,22 @@ import {Poster} from '../../utils/Poster';
 import EditDelete from '../EditDelete';
 import { apiUrl } from '../../utils/getParams';
 
-class Home extends Component {
+class Diseases extends Component {
   
   
   constructor(props) {
     super(props);
     this.getFlags();
     this.addFlagVisible = false;
+    this.editFlagId = null;
     this.state = {
       addFlagVisible: false,
       flagEditable: false,
     };
   }  
 
-  addFlag() {
+  addFlag(conceptId) {
+    this.editFlagId = conceptId;
     this.setState({addFlagVisible: true});
   }
 
@@ -41,34 +43,44 @@ class Home extends Component {
     } 
   }
 
-  editFlag() {
+  editItem(conceptId) {
+    this.addFlag(conceptId);
+  }
+
+  selectItems() {
     this.setState({flagEditable: !this.state.flagEditable});     
   }
 
   render() {
     const featureFlags = typeof global.__API_DATA__ !== 'undefined' ? global.__API_DATA__ : window.__API_DATA__;
 
+
     return (
       <div className={styles.wrapper}>
           <div className={styles.leftRail}>
             <div className={styles.title}>FLAGS</div>
               {featureFlags.map( (flag) => 
-                <div key={flag.flagName} className={styles.flagWrapper}>
-                  <BulletPoint flagName={flag.flagName} status={this.state.flagEditable} />
-                  <span className={styles.flagName}>{flag.flagName}</span>
+                <div key={flag.flagName} className={styles.flagWrapper} onClick={ () => { this.editItem(flag.conceptId) }}>
+                  <BulletPoint flagName={flag.displayName} status={this.state.flagEditable} />
+                  <span className={styles.flagName}>{flag.conceptId}</span>
+                  <span className={styles.flagName}>{flag.displayName}</span>
+                  <span className={styles.flagName}>{flag.description}</span>
+                  <span className={styles.flagName}>{flag.parentIds}</span>
+                  <span className={styles.flagName}>{flag.childIds}</span>
+                  <span className={styles.flagName}>{flag.alternateNames}</span>
                   <span className={styles.flagValue}><ToggleSwitch featureFlagName={flag.flagName} val={flag.value} /></span>
                 </div>
               )}
           </div>      
           <div className={styles.rightRail}>
-            <button className={this.state.flagEditable ? styles.addButtonHidden : styles.addButtonVisible } onClick={() => { this.addFlag()} }>ADD</button>
-            <EditDelete flagEditable={ this.state.flagEditable } editFlag={ () => { this.editFlag() } } />
+            <button className={this.state.flagEditable ? styles.addButtonHidden : styles.addButtonVisible } onClick={() => { this.addFlag(null)} }>ADD</button>
+            <EditDelete flagEditable={ this.state.flagEditable } selectItems={ () => { this.selectItems() } } />
           </div>
-          {this.state.addFlagVisible ? <AddFlagPopup closePopup={ () => {this.closePopup() } } /> : null}
+          {this.state.addFlagVisible ? <AddFlagPopup editFlagId={this.editFlagId} flags={featureFlags} closePopup={ () => {this.closePopup() } } /> : null}
       </div>
     );
   }
 
 }
 
-export default Home;
+export default Diseases;

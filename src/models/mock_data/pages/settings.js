@@ -1,7 +1,7 @@
 module.exports = [
     {
-      id: 'greetings',
-      url: '/greetings',
+      id: 'settings',
+      url: '/settings',
       layout: [ 
         {
           span: 12,
@@ -15,7 +15,7 @@ module.exports = [
           span: 12,
           components:[
             {
-              name: "Greetings"
+              name: "Settings"
             }
           ] 
         }                        

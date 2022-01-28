@@ -61,16 +61,14 @@ export default {
     let client;
     let result;
 
+    debugger;
     try  {
-      client = await MongoClient.connect(url);
-      console.log("Connected correctly to server");
-  
-      const db = client.db(dbName);
-
-      result = await db.collection(collectionName).update(searchObject, newObject).toArray();
+      const db = await connect();
+      result = await db.collection(collectionName).update( searchObject, newObject );      
     }
     catch (err) {
       console.log(err.stack);
+      return false;
     }    
     // Close connection
     if(client)

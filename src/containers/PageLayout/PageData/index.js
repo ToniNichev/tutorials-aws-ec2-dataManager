@@ -22,7 +22,7 @@ export default {
       }         
     ]    
   },
-  '/home' : {
+  '/diseases' : {
     template: "Html",              
     layout: [ 
       {
@@ -38,7 +38,7 @@ export default {
         span: 12,
         components:[
           {
-            name: "Home",
+            name: "Diseases",
             props: {}
           }
         ] 

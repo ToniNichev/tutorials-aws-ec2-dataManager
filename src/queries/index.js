@@ -18,8 +18,8 @@ export default {
 
    updateFeatureFlag: async (searchObject, newObject) => {
      delete newObject._id;
-    mongoDB.update(searchObject, newObject, collectionName, (result) => {
-      return true;
+      await mongoDB.update(searchObject, newObject, collectionName, (result) => {
+        return true;
     });     
    },    
 
@@ -38,10 +38,37 @@ export default {
      mongoDB.dropDB();
      const obj = [
       {
-        "flagName" : "thermostat",
-        "value": "on",
-        "group": "switches"
-      }                 
+        "conceptId" : 1,
+        "displayName": "Diagnosis",
+        "description": "Entry domain",
+        "parentIds": "1",
+        "childIds": "2",
+        "alternateNames": ""
+      },
+      {
+        "conceptId" : 2,
+        "displayName": "Disease of Nervous System",
+        "description": "Diseases targeting the nervous system",
+        "parentIds": "1",
+        "childIds": "4",
+        "alternateNames": ""
+      },
+      {
+        "conceptId" : 3,
+        "displayName": "Disease of Eye",
+        "description": "Diseases targeting the eye",
+        "parentIds": "1",
+        "childIds": "2,3",
+        "alternateNames": ""
+      },
+      {
+        "conceptId" : 4,
+        "displayName": "Multiple Sclerosis (MS)",
+        "description": "Multiple Sclerosis",
+        "parentIds": "2,8",
+        "childIds": "5,6,7",
+        "alternateNames": "MS,name1,name2"
+      }          
      ]
     mongoDB.add(obj, collectionName, () => {}); 
    }   

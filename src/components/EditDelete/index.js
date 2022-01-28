@@ -11,17 +11,17 @@ const deleteFlags = () => {
 }
 
 
-const EditDelete = ({flagEditable, editFlag}) => {  
+const EditDelete = ({flagEditable, selectItems}) => {  
   if(!flagEditable) {
     return (
-      <button onClick={() => { editFlag()} }>EDIT</button>
+      <button onClick={() => { selectItems()} }>EDIT</button>
     );
   }
   else {
     return (
       <div>
         <button className={styles.deleteButton} onClick={() => { deleteFlags()} }>DELETE</button>
-        <button onClick={() => { editFlag()} }>CANCEL</button>
+        <button onClick={() => { selectItems()} }>CANCEL</button>
       </div>
     );
   }
