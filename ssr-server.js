@@ -100,8 +100,7 @@ app.get('/Robots.txt', (req, res) => {
 
 app.post('/services/get', 
   async (req, res) => {
-
-  const result = await queries.getFeatureFlags();
+  const result = await queries.getFeatureFlags(filterVal);
   res
   .status(200)
   .set('Content-Type', 'application/json')
@@ -113,7 +112,7 @@ app.post('/services/get',
 app.post('/services/find', 
   async (req, res) => {
   const flagData = JSON.parse(req.body);
-  const result = await queries.findFeatureFlagByName(flagData.displayName);
+  const result = await queries.findFeatureFlagByName(flagData);
   res
   .status(200)
   .set('Content-Type', 'application/json')

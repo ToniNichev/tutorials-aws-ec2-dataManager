@@ -55,12 +55,15 @@ export default {
     let result;
 
     try  {
-      client = await MongoClient.connect(url);
-      console.log("Connected correctly to server");
-  
-      const db = client.db(dbName);
-
-      result = await db.collection(collectionName).find(searchObject).toArray();
+      const db = await connect();
+      if(typeof searchObject === 'undefined' || Object.keys(searchObject).length === 0 ) {
+        result = await db.collection(collectionName).find({}).toArray();
+      }
+      else {
+        const val = searchObject.displayName;
+        const searchObjectWithRegEx = {displayName: { $regex: val + ".*", $options:"i" } }
+        result = await db.collection(collectionName).find(searchObjectWithRegEx).toArray();
+      }
     }
     catch (err) {
       console.log(err.stack);

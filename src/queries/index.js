@@ -5,14 +5,14 @@ const collectionName = 'feature-flags';
 
 export default {
 
-    findFeatureFlagByName: async (flagName) => {
-      const result = await mongoDB.find({ flagName }, collectionName);
+    findFeatureFlagByName: async (flagData) => {
+      const result = await mongoDB.find(flagData, collectionName);
       return result;
     },
 
     
-   getFeatureFlags: async (url) => {
-    const result = await mongoDB.find({}, collectionName);
+   getFeatureFlags: async (filterVal) => {
+    const result = await mongoDB.find(filterVal, collectionName);
     return result;     
    },
 

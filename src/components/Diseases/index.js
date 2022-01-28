@@ -31,11 +31,13 @@ class Diseases extends Component {
     this.getFlags();
   }  
 
-  async getFlags() { 
-    // run this only on client side
-    if(typeof window == 'undefined')
+  async getFlags(filterVal = {}) {     
+    if(typeof window == 'undefined') {
+      // run this only on client side
       return;
-    const result = await Poster(`${apiUrl}/get`, {});
+    }
+    const filterObject = filterVal === {} ? {} : filterVal;
+    const result = await Poster(`${apiUrl}/find`, filterObject);
 
     if(JSON.stringify(result) !== JSON.stringify(window.__API_DATA__)) {
       window.__API_DATA__ = result;
@@ -51,13 +53,21 @@ class Diseases extends Component {
     this.setState({flagEditable: !this.state.flagEditable});     
   }
 
+  applyFlter(e) {
+    const val = { displayName: e.target.value};
+    this.getFlags(val);
+  }
+
   render() {
     const featureFlags = typeof global.__API_DATA__ !== 'undefined' ? global.__API_DATA__ : window.__API_DATA__;
 
     return (
       <div className={styles.wrapper}>
           <div className={styles.leftRail}>
-            <div className={styles.title}>FLAGS</div>
+            <div className={styles.title}>
+              Display name:<input type="text" onChange={ (evt) => { this.applyFlter(evt) } }/>
+            </div>
+
               {featureFlags.map( (flag, id) => 
                 <div key={flag.flagName} className={styles.flagWrapper}>
                   <BulletPoint flagName={flag._id} status={this.state.flagEditable} />
