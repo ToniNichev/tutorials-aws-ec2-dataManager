@@ -15,6 +15,7 @@ class Diseases extends Component {
     this.getFlags();
     this.addFlagVisible = false;
     this.editFlagId = null;
+    this.flagConceptIdMap = {};
     this.state = {
       addFlagVisible: false,
       flagEditable: false,
@@ -29,7 +30,7 @@ class Diseases extends Component {
   closePopup() {
     this.setState({addFlagVisible: false});    
     this.getFlags();
-  }  
+  }
 
   async getFlags(filterVal = {}) {     
     if(typeof window == 'undefined') {
@@ -38,6 +39,11 @@ class Diseases extends Component {
     }
     const filterObject = filterVal === {} ? {} : filterVal;
     const result = await Poster(`${apiUrl}/find`, filterObject);
+
+    for(const id in result) {
+      const flagPointer = result[id];
+      this.flagFromConceptId[flagPointer.conceptId] = flagPointer;
+    }
 
     if(JSON.stringify(result) !== JSON.stringify(window.__API_DATA__)) {
       window.__API_DATA__ = result;
@@ -58,9 +64,23 @@ class Diseases extends Component {
     this.getFlags(val);
   }
 
+  getItemsByIds(ids) {
+    const idsArr = ids.split(',');
+    const result = idsArr.map( (id) => { 
+      console.log(">>>>>>>>>>>", this.flagConceptIdMap[id]);
+        return <li>{ typeof this.flagConceptIdMap[id] === 'undefined' ? 'X' : this.flagConceptIdMap[id].displayName}</li>
+      }
+    );
+
+    return <ul>{result}</ul>;
+  }
+
   render() {
     const featureFlags = typeof global.__API_DATA__ !== 'undefined' ? global.__API_DATA__ : window.__API_DATA__;
-
+    for(const id in featureFlags) {
+      const conceptId = featureFlags[id].conceptId;
+      this.flagConceptIdMap[conceptId] = featureFlags[id];
+    }
     return (
       <div className={styles.wrapper}>
           <div className={styles.leftRail}>
@@ -75,7 +95,7 @@ class Diseases extends Component {
                       <span className={styles.flagName}>{flag.conceptId}</span>
                       <span className={styles.flagName}>{flag.displayName}</span>
                       <span className={styles.flagName}>{flag.description}</span>
-                      <span className={styles.flagName}>{flag.parentIds}</span>
+                      <span className={styles.flagName}>{this.getItemsByIds(flag.parentIds) }</span>
                       <span className={styles.flagName}>{flag.childIds}</span>
                       <span className={styles.flagName}>{flag.alternateNames}</span>
                       <span className={styles.flagValue}><ToggleSwitch featureFlagName={flag.flagName} val={flag.value} /></span>
