@@ -75,7 +75,7 @@ class Diseases extends Component {
           </div>      
           <div className={styles.rightRail}>
             <button className={this.state.flagEditable ? styles.addButtonHidden : styles.addButtonVisible } onClick={() => { this.addFlag(null)} }>ADD</button>
-            <EditDelete flagEditable={ this.state.flagEditable } selectItems={ () => { this.selectItems() } } />
+            <EditDelete closePopup={ () => {this.closePopup() } } flagEditable={ this.state.flagEditable } selectItems={ () => { this.selectItems() } } />
           </div>
           {this.state.addFlagVisible ? <AddFlagPopup editFlagId={this.editFlagId} flags={featureFlags} closePopup={ () => {this.closePopup() } } /> : null}
       </div>

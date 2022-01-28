@@ -5,7 +5,7 @@ import GenralPopup from '../GeneralPopup';
 import {Poster} from '../../utils/Poster';
 import { apiUrl } from '../../utils/getParams';
 
-const deleteFlags = async () => {
+const deleteFlags = async (selectItems, closePopup) => {
   const list = EventsManager.callEvent('getSelectedList')();
   //const result = await Poster(`${apiUrl}/delete`, {'_id': '61f438df0680e3da198d928b'});
   
@@ -13,10 +13,12 @@ const deleteFlags = async () => {
     console.log("items for deletion >>>", index);
     const result = await Poster(`${apiUrl}/delete`, {'_id': index});
   }
+  selectItems();
+  closePopup();
 }
 
 
-const EditDelete = ({flagEditable, selectItems}) => {  
+const EditDelete = ({flagEditable, selectItems, closePopup}) => {  
   if(!flagEditable) {
     return (
       <button onClick={() => { selectItems()} }>EDIT</button>
@@ -25,7 +27,7 @@ const EditDelete = ({flagEditable, selectItems}) => {
   else {
     return (
       <div>
-        <button className={styles.deleteButton} onClick={() => { deleteFlags()} }>DELETE</button>
+        <button className={styles.deleteButton} onClick={() => { deleteFlags(selectItems, closePopup)} }>DELETE</button>
         <button onClick={() => { selectItems()} }>CANCEL</button>
       </div>
     );
