@@ -65,7 +65,7 @@ class Diseases extends Component {
       <div className={styles.wrapper}>
           <div className={styles.leftRail}>
             <div className={styles.title}>
-              Display name:<input type="text" onChange={ (evt) => { this.applyFlter(evt) } }/>
+              Filter by display name:<input type="text" onChange={ (evt) => { this.applyFlter(evt) } }/>
             </div>
 
               {featureFlags.map( (flag, id) => 
