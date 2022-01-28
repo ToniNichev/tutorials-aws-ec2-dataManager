@@ -21,8 +21,8 @@ class Diseases extends Component {
     };
   }  
 
-  addFlag(conceptId) {
-    this.editFlagId = conceptId;
+  addFlag(id) {
+    this.editFlagId = id;
     this.setState({addFlagVisible: true});
   }
 
@@ -43,8 +43,8 @@ class Diseases extends Component {
     } 
   }
 
-  editItem(conceptId) {
-    this.addFlag(conceptId);
+  editItem(id) {
+    this.addFlag(id);
   }
 
   selectItems() {
@@ -54,13 +54,12 @@ class Diseases extends Component {
   render() {
     const featureFlags = typeof global.__API_DATA__ !== 'undefined' ? global.__API_DATA__ : window.__API_DATA__;
 
-
     return (
       <div className={styles.wrapper}>
           <div className={styles.leftRail}>
             <div className={styles.title}>FLAGS</div>
-              {featureFlags.map( (flag) => 
-                <div key={flag.flagName} className={styles.flagWrapper} onClick={ () => { this.editItem(flag.conceptId) }}>
+              {featureFlags.map( (flag, id) => 
+                <div key={flag.flagName} className={styles.flagWrapper} onClick={ () => { this.editItem(id) }}>
                   <BulletPoint flagName={flag.displayName} status={this.state.flagEditable} />
                   <span className={styles.flagName}>{flag.conceptId}</span>
                   <span className={styles.flagName}>{flag.displayName}</span>

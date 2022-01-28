@@ -61,10 +61,10 @@ export default {
     let client;
     let result;
 
-    debugger;
     try  {
       const db = await connect();
-      result = await db.collection(collectionName).update( searchObject, newObject );      
+      var ObjectId = require('mongodb').ObjectID;
+      result = await db.collection(collectionName).update( {_id: new ObjectId(searchObject._id)}, newObject );      
     }
     catch (err) {
       console.log(err.stack);
