@@ -41,8 +41,8 @@ class Diseases extends Component {
     const result = await Poster(`${apiUrl}/find`, filterObject);
 
     for(const id in result) {
-      const flagPointer = result[id];
-      this.flagFromConceptId[flagPointer.conceptId] = flagPointer;
+      const conceptId = result[id].conceptId;
+      this.flagConceptIdMap[conceptId] = result[id];
     }
 
     if(JSON.stringify(result) !== JSON.stringify(window.__API_DATA__)) {
@@ -90,18 +90,18 @@ class Diseases extends Component {
               {featureFlags.map( (flag, id) => 
                 <div key={flag.flagName} className={styles.flagWrapper}>
                   <BulletPoint flagName={flag._id} status={this.state.flagEditable} />
-                    <span onClick={ () => { this.editItem(id) }}>
+                    <span className={styles.fieldsWrapper} onClick={ () => { this.editItem(id) }}>
                       <span className={styles.flagName}>{flag.conceptId}</span>
                       <span className={styles.flagName}>{flag.displayName}</span>
                       <span className={styles.flagName}>{flag.description}</span>
-                      <span className={styles.flagName}>
+                      <div className={styles.flagName}>
                         {this.getItemsByIds(flag.parentIds) }
-                      </span>
-                      <span className={styles.flagName}>
-                      {this.getItemsByIds(flag.childIds) }
-                      </span>
+
+                        <span className={styles.flagName}>
+                        {this.getItemsByIds(flag.childIds) }
+                        </span>
+                      </div>
                       <span className={styles.flagName}>{flag.alternateNames}</span>
-                      <span className={styles.flagValue}><ToggleSwitch featureFlagName={flag.flagName} val={flag.value} /></span>
                     </span>
                 </div>
               )}

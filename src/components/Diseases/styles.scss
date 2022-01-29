@@ -20,6 +20,24 @@
   padding: 40px;
 }
 
+.fieldsWrapper {
+  span:nth-child(2) {
+    font-size: 18px;
+  }
+
+  div {
+    display: inline-flex;
+  }
+
+  span:nth-child(3) {
+    font-size: 13px;
+  }
+
+
+
+}
+  
+
 .leftRail {
   width:90%;
   text-align: left;
