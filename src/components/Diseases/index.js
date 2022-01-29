@@ -67,7 +67,6 @@ class Diseases extends Component {
   getItemsByIds(ids) {
     const idsArr = ids.split(',');
     const result = idsArr.map( (id) => { 
-      console.log(">>>>>>>>>>>", this.flagConceptIdMap[id]);
         return <li>{ typeof this.flagConceptIdMap[id] === 'undefined' ? 'X' : this.flagConceptIdMap[id].displayName}</li>
       }
     );
@@ -95,8 +94,12 @@ class Diseases extends Component {
                       <span className={styles.flagName}>{flag.conceptId}</span>
                       <span className={styles.flagName}>{flag.displayName}</span>
                       <span className={styles.flagName}>{flag.description}</span>
-                      <span className={styles.flagName}>{this.getItemsByIds(flag.parentIds) }</span>
-                      <span className={styles.flagName}>{flag.childIds}</span>
+                      <span className={styles.flagName}>
+                        {this.getItemsByIds(flag.parentIds) }
+                      </span>
+                      <span className={styles.flagName}>
+                      {this.getItemsByIds(flag.childIds) }
+                      </span>
                       <span className={styles.flagName}>{flag.alternateNames}</span>
                       <span className={styles.flagValue}><ToggleSwitch featureFlagName={flag.flagName} val={flag.value} /></span>
                     </span>
