@@ -63,7 +63,7 @@ const Renderer = ({flags, closePopup, editFlagId}) => {
           <p><label>Description</label> <input className="description" type="text" defaultValue={description} /></p>
           <p><label>parentIDs</label> <input className="parentIds" type="text" defaultValue={parentIds} /></p>
           <p><label>childIDs</label> <input className="childIds" type="text" defaultValue={childIds} /></p>
-          <p><button onClick={ () => { addEditFlag(_id, closePopup) } }>ADD FLAG</button></p>
+          <p><button onClick={ () => { addEditFlag(_id, closePopup) } }>SAVE</button></p>
         </div>          
       </div>      
     </div>

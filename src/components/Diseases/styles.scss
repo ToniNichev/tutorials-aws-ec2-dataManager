@@ -1,6 +1,6 @@
 .title {
   background: rgb(141, 141, 172);
-  color: black;
+  color: white;
   font-family: MyFont;
   padding: 5px;
 }
@@ -32,9 +32,6 @@
   span:nth-child(3) {
     font-size: 13px;
   }
-
-
-
 }
   
 
@@ -76,4 +73,11 @@ button:hover {
 
 .flagValue {
   float: right;
+}
+
+.invalidId {
+  color: red;
+}
+input {
+  border-radius: 8px;
 }

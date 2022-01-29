@@ -66,10 +66,15 @@ class Diseases extends Component {
 
   getItemsByIds(ids) {
     const idsArr = ids.split(',');
-    const result = idsArr.map( (id) => { 
-        return <li>{ typeof this.flagConceptIdMap[id] === 'undefined' ? 'X' : this.flagConceptIdMap[id].displayName}</li>
+    const result = idsArr.map( (id) => {
+      if(id !== "") {
+        const validId = typeof this.flagConceptIdMap[id] === 'undefined' ? false : true;
+        return <li className={validId ? styles.validId : styles.invalidId}>{ validId ? this.flagConceptIdMap[id].displayName : `Invalid or deleted id: ${id} `}</li>
       }
-    );
+      else {
+        return null
+      }
+    });
 
     return <ul>{result}</ul>;
   }
@@ -84,7 +89,7 @@ class Diseases extends Component {
       <div className={styles.wrapper}>
           <div className={styles.leftRail}>
             <div className={styles.title}>
-              Filter by display name:<input type="text" onChange={ (evt) => { this.applyFlter(evt) } }/>
+              Filter by display name <input type="text" onChange={ (evt) => { this.applyFlter(evt) } }/>
             </div>
 
               {featureFlags.map( (flag, id) => 
