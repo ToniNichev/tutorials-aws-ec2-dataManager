@@ -7,7 +7,6 @@ import { apiUrl } from '../../utils/getParams';
 
 const deleteFlags = async (selectItems, closePopup) => {
   const list = EventsManager.callEvent('getSelectedList')();
-  //const result = await Poster(`${apiUrl}/delete`, {'_id': '61f438df0680e3da198d928b'});
   
   for(var index in list) {
     console.log("items for deletion >>>", index);

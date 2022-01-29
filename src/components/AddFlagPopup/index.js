@@ -38,7 +38,7 @@ const addEditFlag = async (editFlagId, closePopup) => {
 
 
 const Renderer = ({flags, closePopup, editFlagId}) => {  
-  let conceptId = flags.length + 1;
+  let conceptId = parseInt(flags[flags.length - 1].conceptId) + 1;
   let displayName = '';
   let description = '';
   let parentIds = '';

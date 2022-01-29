@@ -95,7 +95,7 @@ class Diseases extends Component {
               {featureFlags.map( (flag, id) => 
                 <div key={flag.flagName} className={styles.flagWrapper}>
                   <BulletPoint flagName={flag._id} status={this.state.flagEditable} />
-                    <span className={styles.fieldsWrapper} onClick={ () => { this.editItem(id) }}>
+                    <span className={styles.fieldsWrapper}>
                       <span className={styles.flagName}>{flag.conceptId}</span>
                       <span className={styles.flagName}>{flag.displayName}</span>
                       <span className={styles.flagName}>{flag.description}</span>
@@ -108,6 +108,9 @@ class Diseases extends Component {
                       </div>
                       <span className={styles.flagName}>{flag.alternateNames}</span>
                     </span>
+                    <div>
+                      <button onClick={ () => { this.editItem(id) }}>Edit</button>
+                    </div>
                 </div>
               )}
           </div>      
