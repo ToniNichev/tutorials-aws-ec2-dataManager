@@ -3,7 +3,7 @@
 - start with express SSR server and webpack-dev-server
 $ yarn start-dev
 
-access it: http://localhost:8081/home
+access it: http://localhost:8081/diseases
 
 - Run production server
 $ yarn start-prod
