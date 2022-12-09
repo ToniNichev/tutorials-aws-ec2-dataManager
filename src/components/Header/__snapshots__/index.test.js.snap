@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Header component renders as expected!!! 1`] = `
+<div>
+  <div>
+    <h2>
+      Title test
+       
+      Master Ontology
+       
+    </h2>
+    <ul>
+      <li>
+        <Link
+          to="/diseases"
+        >
+          DISEASES
+        </Link>
+      </li>
+      <li>
+        <Link
+          to="/settings"
+        >
+          SETTINGS
+        </Link>
+      </li>
+    </ul>
+  </div>
+  <Renderer
+    showPopup={false}
+  />
+</div>
+`;
