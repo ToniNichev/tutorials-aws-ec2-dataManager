@@ -60,7 +60,7 @@ class Diseases extends Component {
   }
 
   applyFlter(e) {
-    const val = { displayName: e.target.value};
+    const val = { "displayName": e.target.value};
     this.getFlags(val);
   }
 

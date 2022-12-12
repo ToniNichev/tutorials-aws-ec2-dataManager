@@ -111,6 +111,9 @@ app.post('/services/get',
 
 app.post('/services/find', 
   async (req, res) => {
+    console.log("@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
+    console.dir(req.body, { depth: null });
+
   const flagData = JSON.parse(req.body);
   const result = await queries.findFeatureFlagByName(flagData);
   res
