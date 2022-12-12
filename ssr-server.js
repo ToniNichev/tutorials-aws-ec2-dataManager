@@ -111,7 +111,7 @@ app.post('/services/get',
 
 app.post('/services/find', 
   async (req, res) => {
-    console.log("@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
+    console.log("@@@@@@@@@@@@@@@@@@@@@@@@@");
     console.dir(req.body, { depth: null });
 
   const flagData = JSON.parse(req.body);
