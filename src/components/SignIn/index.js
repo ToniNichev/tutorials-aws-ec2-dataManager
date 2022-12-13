@@ -25,8 +25,9 @@ class SignIn extends Component {
 
     return (
       <div className={styles.wrapper}>
-        <iframe id="log-in" 
-                src="http://toni-develops.com:8085/sign-in-iframe" frameBorder="0">                  
+        <iframe 
+          id="log-in" 
+          src="http://toni-develops.com:8085/sign-in-iframe" frameBorder="0">                  
         </iframe>
       </div>)
   }
