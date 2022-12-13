@@ -17,9 +17,31 @@ const Setup = Loadable({
   loader: () => import ('../../../components/Setup'),
   loading: Loading
 });
+const SignIn = Loadable({
+  loader: () => import ('../../../components/SignIn'),
+  loading: Loading
+});
+const SignInIframe = Loadable({
+  loader: () => import ('../../../components/SignIn/SignInIframe'),
+  loading: Loading
+});
+const SignInIframeCallback = Loadable({
+  loader: () => import ('../../../components/SignIn/SignInIframeCallback'),
+  loading: Loading
+});
+const AuthenticateFacebook = Loadable({
+  loader: () => import ('../../../components/authenticate/Facebook'),
+  loading: Loading
+});
+
+
 export default {
   Diseases,
   About,
   Setup,
   Header,
+  AuthenticateFacebook,
+  SignIn,
+  SignInIframe,
+  SignInIframeCallback,
 }

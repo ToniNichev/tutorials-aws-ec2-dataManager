@@ -1,15 +1,30 @@
 import React, { Component } from 'react';
 import ComponentList from './ComponentList';
 import PageData from './PageData';
+import Cookies from 'universal-cookie';
 const styles = require('./styles.scss');
 class PageLayout extends Component {
-    constructor(props) {
-      super(props);      
+    
+  constructor(props) {
+      super(props);    
+      this.cookies = new Cookies();
+      this.user = null;
     } 
   
     render() {
-      const url = this.props.location.pathname;
-      const page = PageData[url];
+      let url = this.props.location.pathname;
+      const user =  this.cookies.get('user');
+      
+
+      if(url !== '/setup' && url !== '/sign-in-iframe' && url !== '/sign-in-iframe-callback') {
+        if(url !== '/sign-in') {         
+          if(typeof user === 'undefined') {
+            url = '/sign-in';
+          }
+        }
+      }      
+   
+      const page = PageData[url];      
 
       const allLayout = page.layout.map((layoutList) => {
         const layout = layoutList.components.map((component, id , components) => {
@@ -34,4 +49,5 @@ class PageLayout extends Component {
       );
     }
 }
+
 export default PageLayout;
