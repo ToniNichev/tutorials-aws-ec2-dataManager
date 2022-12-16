@@ -37,14 +37,15 @@ class SignInIframe extends Component {
       const script = document.createElement("script")
       script.src = "https://accounts.google.com/gsi/client"
       script.onload = () => {
-        if (!window.google) return
-
-        console.log(">>>> initialize google");
-        //setGsiScriptLoaded(true)
-        window.google.accounts.id.initialize({
+        google.accounts.id.initialize({
           client_id: '989056576533-mtef8cl5is5ogjh3np580ireurns7l5k.apps.googleusercontent.com',
-          callback: function() { console.log("$$$$$$$$$$$$$$$$$$$"); },
-        })          
+          callback: (response) => { console.log("Encoded JWT ID token: " + response.credential); }
+        });
+        google.accounts.id.renderButton(
+          document.getElementById("buttonDiv"),
+          { theme: "outline", size: "large" }  // customization attributes
+        );
+        google.accounts.id.prompt(); // also display the One Tap dialog
       }
       script.async = true
       script.id = "google-client-script"
@@ -64,21 +65,7 @@ class SignInIframe extends Component {
       <div className={styles.wrapper}>
           <a href={uri}>Sign In With Facebook</a>
 
-          <div 
-            id="g_id_onload" 
-            data-client_id="989056576533-mtef8cl5is5ogjh3np580ireurns7l5k.apps.googleusercontent.com"
-            data-login_uri="http://localhost:3000/callback" 
-            data-auto_prompt="false">
-          </div>
-            <div 
-            class="g_id_signin" 
-            data-type="standard" 
-            data-size="large" 
-            data-theme="outline" 
-            data-text="sign_in_with"
-            data-shape="rectangular" 
-            data-logo_alignment="left">
-          </div>
+          <div id="buttonDiv"></div> 
       </div>)
   }
 }
