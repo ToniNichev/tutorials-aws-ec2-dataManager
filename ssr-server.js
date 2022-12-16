@@ -110,7 +110,10 @@ function response(req, res, apiData, templateName, user) {
 
 app.get('/sign-in-callback', async (req, res, next) => {
   
-  await requestDataFromAPI(req, res, next);
+  await requestDataFromAPI(req, res, null);
+
+  console.log("!!!!!!!!!!!!!!");
+  console.log(req.query);
 
   let user = null;
   if(req.query.code) {
@@ -127,6 +130,8 @@ app.get('/sign-in-callback', async (req, res, next) => {
     user = {
       token
     }
+    
+    cookiesManagement('user', JSON.stringify(user), 900000, req, res);
   } 
   
   response(req, res, req.apiData, req.templateName, user);

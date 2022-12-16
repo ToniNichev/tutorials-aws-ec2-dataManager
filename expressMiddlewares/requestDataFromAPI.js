@@ -18,7 +18,8 @@ const requestDataFromAPI = async (req, res, next) => {
   }
   req.templateName = templateName;
   req.apiData = result;
-  next(); // continue once the data is available.
+  if(next !== null)
+    next(); // continue once the data is available.
 
 }
 

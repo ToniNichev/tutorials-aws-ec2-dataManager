@@ -8,9 +8,6 @@ class SignInIframe extends Component {
 
   constructor(props) {    
     super(props);
-    this.cookies = new Cookies();
-    this.state = {
-    }
   }
 
   render() {

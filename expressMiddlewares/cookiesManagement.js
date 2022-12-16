@@ -1,11 +1,9 @@
-function cookiesManagement(req, res, next) {
+function cookiesManagement(cookieName, value, maxAge, req, res) {
   // example of adding/reading cookie
-  var cookie = req.cookies.testCookie;
+  var cookie = req.cookies[cookieName];
   if (cookie === undefined)
   {
-    // no: set a new cookie
-    var randomNumber = new Date().toDateString();
-    res.cookie('testCookie',randomNumber, { maxAge: 900000, httpOnly: false });
+    res.cookie(cookieName ,value, { maxAge: maxAge, httpOnly: false });
     console.log('cookie created successfully');
   } 
   else
@@ -13,7 +11,7 @@ function cookiesManagement(req, res, next) {
     // cookie was already present 
     console.log('cookie exists', cookie);
   } 
-  next(); // !Importat to continue execution.
+  //next(); // !Importat to continue execution.
 }
 
 export default cookiesManagement;

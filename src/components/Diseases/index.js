@@ -6,6 +6,7 @@ import AddFlagPopup from '../AddFlagPopup';
 import {Poster} from '../../utils/Poster';
 import EditDelete from '../EditDelete';
 import { apiUrl } from '../../utils/getParams';
+import cookie from 'cookie';
 
 class Diseases extends Component {
   
@@ -81,6 +82,11 @@ class Diseases extends Component {
 
   render() {
     const featureFlags = typeof global.__API_DATA__ !== 'undefined' ? global.__API_DATA__ : window.__API_DATA__;
+
+    const cookies = cookie.parse(document.cookie);
+    const user = JSON.parse(cookies.user);
+    window.user = user;
+
     for(const id in featureFlags) {
       const conceptId = featureFlags[id].conceptId;
       this.flagConceptIdMap[conceptId] = featureFlags[id];
