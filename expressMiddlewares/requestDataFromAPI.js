@@ -4,7 +4,6 @@ const url = require('url');
 const querystring = require('querystring');
 
 const requestDataFromAPI = async (req, res, next) => {
-
   const result = await queries.getFeatureFlags();
 
   req.parsedUrl = url.parse(req.url);

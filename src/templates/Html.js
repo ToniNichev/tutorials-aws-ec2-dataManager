@@ -2,7 +2,8 @@ import React from 'react';
 
 const publicPath = `${process.env.APP_HOST}:${process.env.ASSETS_SERVER_PORT}/dist/`;
 
-const Html = ({ content, cssBundles, jsBundles, apiData }) => (
+const Html = ({ content, cssBundles, jsBundles, apiData, user }) => (
+
   <html lang="en">  
   <head>
     <meta charSet="utf-8" />
@@ -40,8 +41,9 @@ const Html = ({ content, cssBundles, jsBundles, apiData }) => (
     <script dangerouslySetInnerHTML={{
           __html: `window.__API_DATA__=${JSON.stringify(apiData)}`}} />    
 
-<script dangerouslySetInnerHTML={{
-          __html: `window.__API_DATA__=${JSON.stringify(apiData)}`}} />        
+    <script dangerouslySetInnerHTML={{
+          __html: `window.__user__=${JSON.stringify(user)}`}} />   
+
   </head>
   <body cz-shortcut-listen="true">
     <div id="root" dangerouslySetInnerHTML={{ __html: content }} />  

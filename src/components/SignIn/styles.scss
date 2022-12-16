@@ -1,29 +1,16 @@
 .wrapper {
-  background-color: #fefefe;
-  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
-  border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
-  color: black;
+  bottom: 0;
+  height: 30px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: -30%;
+  width: 50%;
 
-  button {
-    padding: 5px;
-    border: 1px solid #888;
-    cursor: pointer;
-  }
-
-
-  .userFieldsContainer {
-    padding: 16px;
-
-    /* Full-width input fields */
-    input[type=text], input[type=password] {
-      width: 100%;
-      padding: 12px 20px;
-      margin: 8px 0;
-      display: inline-block;
-      border: 1px solid #ccc;
-      box-sizing: border-box;
-    }    
-  }
-
+  background-color: #F5F5F5;
+  border: 1px solid #E3E3E3;
+  border-radius: 4px 4px 4px 4px;
+  padding: 15px;  
 } 

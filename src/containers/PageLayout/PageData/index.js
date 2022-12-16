@@ -13,28 +13,14 @@ export default {
       }         
     ]    
   },
-  '/sign-in-iframe' : {
+  '/sign-in-callback' : {
     template: "Html",    
     layout: [ 
       {
         span: 12,
         components:[
           {
-            name: "SignInIframe",
-            props: {}
-          }
-        ] 
-      }         
-    ]    
-  },
-  '/sign-in-iframe-callback' : {
-    template: "Html",    
-    layout: [ 
-      {
-        span: 12,
-        components:[
-          {
-            name: "SignInIframeCallback",
+            name: "SignInCallback",
             props: {}
           }
         ] 

@@ -5,7 +5,7 @@ function cookiesManagement(req, res, next) {
   {
     // no: set a new cookie
     var randomNumber = new Date().toDateString();
-    res.cookie('testCookie',randomNumber, { maxAge: 900000, httpOnly: true });
+    res.cookie('testCookie',randomNumber, { maxAge: 900000, httpOnly: false });
     console.log('cookie created successfully');
   } 
   else

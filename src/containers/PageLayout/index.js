@@ -16,12 +16,8 @@ class PageLayout extends Component {
       const user =  this.cookies.get('user');
       
 
-      if(url !== '/setup' && url !== '/sign-in-iframe' && url !== '/sign-in-iframe-callback') {
-        if(url !== '/sign-in') {         
-          if(typeof user === 'undefined') {
-            url = '/sign-in';
-          }
-        }
+      if(typeof user === 'undefined' && url !== '/sign-in' && url !== '/setup' && url !== '/sign-in-callback') {
+        url = '/sign-in';
       }      
    
       const page = PageData[url];      

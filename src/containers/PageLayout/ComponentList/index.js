@@ -21,12 +21,8 @@ const SignIn = Loadable({
   loader: () => import ('../../../components/SignIn'),
   loading: Loading
 });
-const SignInIframe = Loadable({
-  loader: () => import ('../../../components/SignIn/SignInIframe'),
-  loading: Loading
-});
-const SignInIframeCallback = Loadable({
-  loader: () => import ('../../../components/SignIn/SignInIframeCallback'),
+const SignInCallback = Loadable({
+  loader: () => import ('../../../components/SignIn/SignInCallback'),
   loading: Loading
 });
 const AuthenticateFacebook = Loadable({
@@ -42,6 +38,5 @@ export default {
   Header,
   AuthenticateFacebook,
   SignIn,
-  SignInIframe,
-  SignInIframeCallback,
+  SignInCallback,
 }

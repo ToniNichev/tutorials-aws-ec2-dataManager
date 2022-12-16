@@ -33,9 +33,21 @@ app.use('/server-build', express.static('./server-build'));
 app.use('/dist', express.static('dist')); // to serve frontent prod static files
 app.use('/favicon.ico', express.static('./static-assets/favicon.ico'));
 
-function response(req, res, apiData, templateName) {
+
+const fetchToken = async (url) => {
+  let token;
+  await fetch(url)
+    .then(res => res.json())
+    .then(data => {
+      token = data.access_token;
+    });
+    return token;
+}
+
+function response(req, res, apiData, templateName, user) {
+  templateName = "Html";
   // make APP data available for SSR and browser.
-  global.__API_DATA__ = apiData;
+
   const Html = templateList[templateName];
 
   // Prepare to get list of all modules that have to be loaded for this route
@@ -45,9 +57,7 @@ function response(req, res, apiData, templateName) {
       <App req={req} />
     </Loadable.Capture>
   );
-
   
-  console.log(">>> Extract CSS and JS bundles");
   // Extract CSS and JS bundles
   const bundles = getBundles(manifest, modules); 
   const cssBundles = bundles.filter(bundle => bundle && bundle.file.split('.').pop() === 'css');
@@ -82,7 +92,12 @@ function response(req, res, apiData, templateName) {
   }  
 
   const HTML_content = ReactDOMServer.renderToString(<App req={req} />);
-  const html = <Html content={HTML_content} cssBundles={cssBundles} jsBundles={jsBundles} apiData={apiData}/>;
+  const html = <Html
+                    content={HTML_content} 
+                    cssBundles={cssBundles} 
+                    jsBundles={jsBundles} 
+                    apiData={apiData} 
+                    user={user}/>;
   res.status(200);
   res.send(`<!doctype html>\n${ReactDOMServer.renderToStaticMarkup(html)}`);
   res.end();
@@ -90,7 +105,32 @@ function response(req, res, apiData, templateName) {
 
 
 // adding cookie middleware
-app.use(cookiesManagement);
+//app.use(cookiesManagement);
+
+
+app.get('/sign-in-callback', async (req, res, next) => {
+  
+  await requestDataFromAPI(req, res, next);
+
+  let user = null;
+  if(req.query.code) {
+
+    const appSecret = '7520975cd83ab99bdf246bbc37930c13';
+    const redirectUri = 'http://localhost:8085/sign-in-callback';
+    const appId = '1843912682636144';
+    const url = 'https://graph.facebook.com/v15.0/oauth/access_token?client_id=' + appId + '&redirect_uri=' + redirectUri +'&client_secret=' + appSecret + '&code=' + req.query.code;
+  
+    // console.log('url:' ,url);
+    const token = await fetchToken(url);
+    req.token = token;
+
+    user = {
+      token
+    }
+  } 
+  
+  response(req, res, req.apiData, req.templateName, user);
+});
 
 app.get('/Robots.txt', (req, res) => {   
   res.send(`
@@ -111,8 +151,6 @@ app.post('/services/get',
 
 app.post('/services/find', 
   async (req, res) => {
-    console.log("@@@@@@@@@@@@@@@@@@@@@@@@@");
-    console.dir(req.body, { depth: null });
 
   const flagData = JSON.parse(req.body);
   const result = await queries.findFeatureFlagByName(flagData);
@@ -197,7 +235,7 @@ app.get('/services/data', async (req, res) => {
 app.get('/*', 
   requestDataFromAPI, 
   function (req, res, next) {
-   response(req, res, req.apiData, req.templateName);
+   response(req, res, req.apiData, req.templateName, null);
 });
 
 

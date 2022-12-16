@@ -4,28 +4,21 @@ import Cookies from 'universal-cookie';
 
 
 
-class SignInIframeCallback extends Component {
+class SignInIframe extends Component {
 
   constructor(props) {    
     super(props);
     this.cookies = new Cookies();
     this.state = {
-      popupVisible: false,
-      popupMessage: '',
-      logInPopupVisible: true
     }
   }
 
   render() {
-    const stateParam = '';
-    const redirectUri = '';
-    const appId = '553596269528879';
-
     return (
       <div className={styles.wrapper}>
-        CALLBACK
+          <a href="/diseases">CONTINUE</a>
       </div>)
   }
 }
 
-export default SignInIframeCallback;
+export default SignInIframe;
