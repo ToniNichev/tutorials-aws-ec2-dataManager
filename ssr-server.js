@@ -111,11 +111,17 @@ function response(req, res, apiData, templateName, user) {
 app.get('/sign-in-callback', async (req, res, next) => {
   
   await requestDataFromAPI(req, res, null);
-
-  console.log("!!!!!!!!!!!!!!");
-  console.log(req.query);
-
   let user = null;
+
+  if(req.query?.credential) {
+    user = {
+      authProvider: 'google',
+      token: req.query?.credential
+    }
+    cookiesManagement('user', JSON.stringify(user), 900000, req, res);
+  }
+
+
   if(req.query.code) {
 
     const appSecret = '7520975cd83ab99bdf246bbc37930c13';
@@ -128,6 +134,7 @@ app.get('/sign-in-callback', async (req, res, next) => {
     req.token = token;
 
     user = {
+      authProvider: 'facebook',
       token
     }
     

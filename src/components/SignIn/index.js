@@ -67,7 +67,7 @@ class SignInIframe extends Component {
           <div 
             id="g_id_onload" 
             data-client_id="989056576533-mtef8cl5is5ogjh3np580ireurns7l5k.apps.googleusercontent.com"
-            data-login_uri="http://localhost/oauth/callback.php" 
+            data-login_uri="http://localhost:3000/callback" 
             data-auto_prompt="false">
           </div>
             <div 
