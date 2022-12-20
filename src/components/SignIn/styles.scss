@@ -1,6 +1,6 @@
 .wrapper {
   bottom: 0;
-  height: 30px;
+  height: 50%;
   left: 0;
   margin: auto;
   position: absolute;
@@ -14,7 +14,9 @@
   border-radius: 4px 4px 4px 4px;
   padding: 15px;  
 
-  .g_id_signin {
+  iframe {
     border:1px solid red;
+    width:80%;
+    height:80%;
   }
 } 

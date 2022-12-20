@@ -3,84 +3,59 @@ import styles from './styles.scss';
 import Cookies from 'universal-cookie';
 
 
-
 class SignInIframe extends Component {
   
 
+  
   constructor(props) {    
     super(props);
+    this.state = {loggedIn: false, email:''};
+    this.cookies = new Cookies();
+    if(typeof window === 'undefined') return;
+    window.addEventListener("message", (event) => { this.userLoggedInCalback(event) }, false);
+    this.cookies = new Cookies();    
   }
 
-
-  handleGoogleSignIn() {
-    console.log("HANDLE GOOGLE SIGN IN !");
+  userLoggedInCalback(event) {
+    //console.log("event:", event);
+    if(event.origin !== "https://www.toni-develops.com") {
+      //console.log("iframe post failed. event.origin: ", event.origin);
+      return    
+    }
+    if(event.data) {
+      console.log('event data: ', event.data);
+      this.setState({loggedIn: true, email: event.data});
+      const userObject = {
+        email : event.data
+      }
+      const user = JSON.stringify(userObject);
+      this.cookies.set('user', user, { path: '/' });
+    }
   }
-
-  initializeGsi() {
-    console.log("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
-
-    if (!window.google) return
-
-    console.log(">>>> initialize google");
-    //setGsiScriptLoaded(true)
-    window.google.accounts.id.initialize({
-      client_id: '989056576533-mtef8cl5is5ogjh3np580ireurns7l5k.apps.googleusercontent.com',
-      callback: function() { console.log("$$$$$$$$$$$$$$$$$$$"); },
-    })      
-  }    
-
   
 
   componentDidMount() {  
-    if(typeof document !== 'undefined') {
-      // don't try anything on server side
-      const script = document.createElement("script")
-      script.src = "https://accounts.google.com/gsi/client"
-      script.onload = () => {
-        if (!window.google) return
-
-        console.log(">>>> initialize google");
-        //setGsiScriptLoaded(true)
-        window.google.accounts.id.initialize({
-          client_id: '989056576533-mtef8cl5is5ogjh3np580ireurns7l5k.apps.googleusercontent.com',
-          callback: function() { console.log("$$$$$$$$$$$$$$$$$$$"); },
-        })          
-      }
-      script.async = true
-      script.id = "google-client-script"
-      document.querySelector("body")?.appendChild(script);    
+    if(typeof document !== 'undefined') { 
     }  
   }
 
 
-  render() {
-    const stateParam = 'state-param';
-    const redirectUri = 'http://localhost:8085/sign-in-callback';
-    const appId = '1843912682636144';
-
-    const uri = `https://www.facebook.com/v15.0/dialog/oauth?client_id=${appId}&redirect_uri=${redirectUri}&state=${stateParam}`;
-
-    return (
-      <div className={styles.wrapper}>
-          <a href={uri}>Sign In With Facebook</a>
-
-          <div 
-            id="g_id_onload" 
-            data-client_id="989056576533-mtef8cl5is5ogjh3np580ireurns7l5k.apps.googleusercontent.com"
-            data-login_uri="http://localhost:3000/callback" 
-            data-auto_prompt="false">
-          </div>
-            <div 
-            class="g_id_signin" 
-            data-type="standard" 
-            data-size="large" 
-            data-theme="outline" 
-            data-text="sign_in_with"
-            data-shape="rectangular" 
-            data-logo_alignment="left">
-          </div>
-      </div>)
+  continue() {
+    window.location.href = '/diseases';
   }
+
+  render() {
+
+    if(this.state.loggedIn) {
+      return (<div><h1>welcome {this.state.email}</h1><button onClick={() => { this.continue()} }>continue</button></div>);
+    }
+    else {
+      return (
+        <div className={styles.wrapper}>
+          <iframe src="https://www.toni-develops.com/external-files/examples/oauth-google/auth-google.php"></iframe>
+        </div>)
+      }
+    }
 }
 
 export default SignInIframe;
